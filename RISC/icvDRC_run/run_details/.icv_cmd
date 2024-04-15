@@ -1,0 +1,4 @@
+signoff_check_drc.err risc_1.nlib msrv32_top icv NDM INST /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run/slnFile.txt /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run/signoff_check_drc.rc /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC -rc -p -icc_density_blockage -icc2_error_cell -icc2_error_categories -icc2_error_browser -icc2 -i -hm -f -clf -c -I -I 
+schematic=UNSPECIFIED
+ICV_HOME_DIR=/home/cad/eda/SYNOPSYS/IC_VALIDATOR-2022.12/icvalidator/U-2022.12-SP5
+ICV_INCLUDES=UNSET

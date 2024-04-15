@@ -1,0 +1,7 @@
+set search_path [list . /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/dw/syn_ver /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/dw/sim_ver /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/libraries/syn scripts design_data ] 
+analyze -format verilog  "rtl/machine_counter.v" 
+C/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/counter
+/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/counter/rtl/machine_counter.v
+machine_counter
+elaborate machine_counter
+set_top_module machine_counter

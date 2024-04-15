@@ -1,0 +1,181 @@
+                             RESULTS: NOT CLEAN
+
+         #   #   ###   #####      ####  #      #####   ###   #   #
+         ##  #  #   #    #       #      #      #      #   #  ##  #
+         # # #  #   #    #       #      #      ####   #####  # # #
+         #  ##  #   #    #       #      #      #      #   #  #  ##
+         #   #   ###     #        ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+          Version U-2022.12-SP5 for linux64 - Oct 26, 2023 cl#9338971
+
+                    Copyright (c) 1996 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -icc2 -f NDM -i risc_1.nlib -p /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC -c msrv32_top -clf /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run/slnFile.txt -icc_density_blockage -icc2_error_categories -hm -I /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run -icc2_error_browser INST -icc2_error_cell signoff_check_drc.err -rc /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run/signoff_check_drc.rc -I /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs 
+
+Command Line Summary:
+icv
+-c msrv32_top
+-f NDM
+-hm
+-i risc_1.nlib
+-icc2
+-icc2_error_browser INST
+-icc2_error_categories
+-icc2_error_cell signoff_check_drc.err
+-icc_density_blockage
+-p /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC
+-rc /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run/signoff_check_drc.rc
+-sln "11 13 15 17 19 21 23 25 27 41 12 14 16 18 20 22 24 26 42 "
+-I /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run
+-I /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run
+/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs
+
+CLF Files:
+  /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run/slnFile.txt
+  
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Input file name:        risc_1.nlib
+Top cell name:          msrv32_top
+Layout format:          NDM
+Runset file:            /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs
+Working directory:      /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run
+Run details directory:  /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run/run_details
+Layout error file:      msrv32_top.LAYOUT_ERRORS
+User name:              JashtiG
+Time started:           2024/04/06 05:23:46PM
+Time ended:             2024/04/06 05:25:08PM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+266 total rules were run.
+137 rules NOT EXECUTED.
+6 rules have violations.
+There are 30733 total violations.
+Refer to msrv32_top.LAYOUT_ERRORS
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Rule                          Violations Found
+M1.S.1                        v = 10
+M1.S.9                        v = 172
+M1.W.1                        v = 79
+M1.W.2.1                      v = 6
+M9.S.8_1                      v = 2694
+VIA6.B.1                      v = 27772
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 22
+ Empty Utilized Assign Layers = 2
+ Non-Empty Utilized Assign Layers = 20
+Pruned Assign Layers = 64
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { ERRORS }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_sampling_per_check = 10000
+ match_errors = { }
+ match_errors_processing_mode = HIERARCHICAL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables
+
+HOME = "/home/WBPD04/JashtiG"
+ICV_HOME_DIR = "/home/cad/eda/SYNOPSYS/IC_VALIDATOR-2022.12/icvalidator/U-2022.12-SP5"
+ICV_REVERT = "NDM_DESIGN_ATTACHED_ERROR_DATA"
+PATH = "/home/cad/eda/SYNOPSYS/IC_VALIDATOR-2022.12/icvalidator/U-2022.12-SP5/bin/LINUX64_L31el:/home/cad/eda/SYNOPSYS/IC_VALIDATOR-2022.12/icvalidator/U-2022.12-SP5/contrib/bin/LINUX64_L31el:/home/cad/eda/SYNOPSYS/IC_VALIDATOR-2022.12/icvalidator/U-2022.12-SP5/bin:/home/cad/eda/SYNOPSYS/StarRC-2022.12/starrc/U-2022.12-SP5/bin:/home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/bin:/home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/bin:/home/cad/eda/Tessent_2020.1/bin:/home/cad/eda/SYNOPSYS/IC2_compiler/icc2/T-2022.03-SP4/bin:/home/cad/eda/SYNOPSYS/Prime_Time/prime/T-2022.03-SP4/bin:/home/cad/eda/SYNOPSYS/Design_Compiler/syn/T-2022.03-SP4/bin:/home/cad/eda/Oasys-RTL-2021/Oasys-RTL-2021.1.R1/bin:/home/cad/eda/Aprisa_21_R1/AP_21.R1/bin/rhel7-64:/home/cad/eda/Calibre_2021/aoi_cal_2021.4_25.11/bin:/home/cad/eda/Tanner_2021/tanner/bin/:/home/cad/eda/Questa_2019/questasim/bin:/home/cad/eda/Questa_2019/questasim/bin:/home/cad/eda/SYNOPSYS/IC_VALIDATOR-2022.12/icvalidator/U-2022.12-SP5/bin:/home/cad/eda/SYNOPSYS/StarRC-2022.12/starrc/U-2022.12-SP5/bin:/home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/bin:/home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/bin:/home/cad/eda/Tessent_2020.1/bin:/home/cad/eda/SYNOPSYS/IC2_compiler/icc2/T-2022.03-SP4/bin:/home/cad/eda/SYNOPSYS/Prime_Time/prime/T-2022.03-SP4/bin:/home/cad/eda/SYNOPSYS/Design_Compiler/syn/T-2022.03-SP4/bin:/home/cad/eda/Oasys-RTL-2021/Oasys-RTL-2021.1.R1/bin:/home/cad/eda/Aprisa_21_R1/AP_21.R1/bin/rhel7-64:/home/cad/eda/Calibre_2021/aoi_cal_2021.4_25.11/bin:/home/cad/eda/Tanner_2021/tanner/bin/:/home/cad/eda/Questa_2019/questasim/bin:/home/cad/eda/Questa_2019/questasim/bin:/usr/lib64/qt-3.3/bin:/usr/local/Modules/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/opt/thinlinc/bin:/opt/thinlinc/sbin:/home/WBPD04/JashtiG/.local/bin:/home/WBPD04/JashtiG/bin"
+SNPSLMD_LICENSE_FILE = "27020@mavenserver-rh1:27021@mavenserver-RH2"
+USER = "JashtiG"
+
+6 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables
+
+_ICV_RSH_COMMAND = "ssh"
+icv_WRITE_TECH_FILE_WITH_UPDATES = "/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run/tech.tf"
+
+2 debug environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ mavenserver-rh1 (2/32)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+   CPU:   32 cpu 3000 MHz
+   Cores: 16 HT
+   RAM:   251.340 GB
+   Swap:  31.249 GB
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:01:22
+Peak Single Command Memory = 1.102 GB
+Peak Disk Usage = 0.045 GB
+Network Disk Usage Peak=0.017 GB (no group)
+Group File Disk Usage Peak=0.056 GB
+
+Distributed Host Memory Usage
+ mavenserver-rh1 (2/32)  ....  Average=0.566 GB, Peak=2.437 GB / 251.340 GB
+
+Overall Distributed Utilization: not available
+IC Validator is done.

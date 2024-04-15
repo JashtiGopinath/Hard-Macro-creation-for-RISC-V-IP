@@ -1,0 +1,13 @@
+#@ # 
+#@ # Running lm_shell Version U-2022.12-SP6 for linux64 -- Aug 25, 2023
+#@ # Date:   Wed Feb 28 23:44:56 2024
+#@ # Run by: JashtiG@mavenserver-RH1
+#@ 
+
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+create_workspace -flow edit ndm/alu1.ndm
+set_attribute [get_lib_cells msrv32_alu] design_type macro
+change_selection [get_lib_cells -include_subcells {alu1/msrv32_alu/frame}]
+exit
+commit_workspace
+exit

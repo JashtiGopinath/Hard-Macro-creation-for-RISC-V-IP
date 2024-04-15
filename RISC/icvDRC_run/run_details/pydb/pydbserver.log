@@ -1,0 +1,152 @@
+
+                                  PYDB_Server 
+
+          Version U-2022.12-SP5 for linux64 - Oct 26, 2023 cl#9338971
+
+                    Copyright (c) 2007 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Listening for connections on port 55499
+PYDB_Server Started on host mavenserver-rh1, Sat 04/06/2024 17:23:58
+Verified current licenses.
+Client mavenserver-rh1(123301):15 connected (1 total client)
+Creating file:/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run/run_details/pydb/PYDB_msrv32_top?nolock=1
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Client mavenserver-rh1(123543):23 connected (2 total clients)
+Client mavenserver-rh1(123542):24 connected (3 total clients)
+Client mavenserver-rh1(123542):24 connection closed
+Client mavenserver-rh1(123542):24 disconnected (2 clients remain)
+Client mavenserver-rh1(123542):24 connected (3 total clients)
+Client mavenserver-rh1(123543):23 connection closed
+Client mavenserver-rh1(123543):23 disconnected (2 clients remain)
+Client mavenserver-rh1(123543):23 connected (3 total clients)
+Client mavenserver-rh1(123542):24 connection closed
+Client mavenserver-rh1(123542):24 disconnected (2 clients remain)
+Client mavenserver-rh1(123542):24 connected (3 total clients)
+Begin error insertion: /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs:1119:internal1
+Error insertion complete: /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs:1119:internal1
+  Error Insertion Time=0:00:00  User=0.01 Sys=0.00 Mem=0.001 GB SQLite=0.007 GB Unpooled=0.000 GB
+Begin error insertion: /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs:1128:external1
+Error insertion complete: /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs:1128:external1
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.001 GB SQLite=0.008 GB Unpooled=0.000 GB
+Begin error insertion: /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs:2653:external2
+Error insertion complete: /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs:2653:external2
+  Error Insertion Time=0:00:00  User=0.04 Sys=0.01 Mem=0.001 GB SQLite=0.008 GB Unpooled=0.000 GB
+Begin error insertion: /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs:1229:external2
+Error insertion complete: /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs:1229:external2
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.009 GB Unpooled=0.000 GB
+Begin error insertion: /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs:3658:not
+Error insertion complete: /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs:3658:not
+  Error Insertion Time=0:00:00  User=0.13 Sys=0.00 Mem=0.002 GB SQLite=0.010 GB Unpooled=0.000 GB
+ Re-enabling keys
+  Enable keys Time=0:00:00  User=0.02 Sys=0.01 Mem=0.001 GB SQLite=0.011 GB Unpooled=0.000 GB
+Begin error insertion: /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs:1257:or
+Error insertion complete: /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs:1257:or
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.001 GB SQLite=0.013 GB Unpooled=0.000 GB
+Client mavenserver-rh1(123542):24 connection closed
+Client mavenserver-rh1(123543):23 connection closed
+Client mavenserver-rh1(123542):24 disconnected (2 clients remain)
+Client mavenserver-rh1(123543):23 disconnected (1 client remains)
+ Total error insertion Time=0:00:34  User=0.20 Sys=0.04 Mem=0.006 GB SQLite=0.013 GB Unpooled=0.000 GB
+  Total Commands: 6
+  Total Errors: 16847
+  Avg Time/Cmd: Wall=0 User=0.03 Sys=0.01 Mem=0.001 GB MySQL Mem=0.000 GB
+Generating /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run/msrv32_top.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.07 Sys=0.00 Mem=0.001 GB
+Flushing database cache
+  Flush Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB SQLite=0.013 GB Unpooled=0.000 GB
+Shutdown requested by client mavenserver-rh1(123301):15
+0 clients remain connected
+Client mavenserver-rh1(123301):15 connection closed
+Overall server Time=0:01:10  User=0.96 Sys=0.13 Mem=0.006 GB SQLite=0.013 GB Unpooled=0.000 GB
+
+                                  PYDB_Server 
+
+          Version U-2022.12-SP5 for linux64 - Oct 26, 2023 cl#9338971
+
+                    Copyright (c) 2007 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Listening for connections on port 43783
+PYDB_Server Started on host mavenserver-rh1, Sat 04/06/2024 17:26:07
+Client mavenserver-rh1(125677):7 connected (1 total client)
+Verified current licenses.
+Opening file:/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run/run_details/pydb/PYDB_msrv32_top?nolock=1 in read-write mode
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Shutdown requested by client mavenserver-rh1(125677):7
+0 clients remain connected
+Client mavenserver-rh1(125677):7 connection closed
+Overall server Time=0:00:00  User=0.01 Sys=0.01 Mem=0.000 GB SQLite=0.002 GB Unpooled=0.000 GB
+
+                                  PYDB_Server 
+
+          Version U-2022.12-SP5 for linux64 - Oct 26, 2023 cl#9338971
+
+                    Copyright (c) 2007 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+variable width coordinate support enabled.
+Listening for connections on port 63077
+PYDB_Server Started on host mavenserver-rh1, Sat 04/06/2024 17:26:52
+Client mavenserver-rh1(126167):7 connected (1 total client)
+Verified current licenses.
+Opening file:/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/icvDRC_run/run_details/pydb/PYDB_msrv32_top?nolock=1 in read-write mode
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.33.0
+Shutdown requested by client mavenserver-rh1(126167):7
+0 clients remain connected
+Client mavenserver-rh1(126167):7 connection closed
+Client mavenserver-rh1(126167):7 disconnected (0 clients remain)
+Overall server Time=0:00:00  User=0.01 Sys=0.01 Mem=0.000 GB SQLite=0.002 GB Unpooled=0.000 GB

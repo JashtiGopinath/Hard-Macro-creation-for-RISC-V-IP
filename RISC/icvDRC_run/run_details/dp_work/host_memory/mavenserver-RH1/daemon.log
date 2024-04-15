@@ -1,0 +1,29 @@
+[04/06/24 17:23:58.903] Host Health Monitor pid 123523
+stdout and stderr from Host Health Monitor are piped to this file.
+[04/06/24 17:23:58.904] stdin is closed.
+[04/06/24 17:23:58.904] timezone IST (+0530)
+[04/06/24 17:23:58.904] Initialized callbacks for stdenv library
+[04/06/24 17:23:58.905] Initialized Host Health Monitor
+Sampling interval is set to 4s
+Memory metric is set to pss (proportional set size)
+Parsing smaps files is turned ON
+[04/06/24 17:23:59.004] Starting HHM from parent process icv_worker (pid 123510).
+[04/06/24 17:23:59.004] Acquire process tree root from icv (pid 123229)
+[04/06/24 17:23:59.118] wall 0.11s, usr 0.03s, sys 0.08s
+[04/06/24 17:24:03.122] wall 0.23s, usr 0.05s, sys 0.17s
+[04/06/24 17:24:07.103] wall 0.33s, usr 0.08s, sys 0.24s
+[04/06/24 17:24:11.050] wall 0.38s, usr 0.09s, sys 0.28s
+[04/06/24 17:24:15.073] wall 0.45s, usr 0.11s, sys 0.32s
+[04/06/24 17:24:19.051] wall 0.49s, usr 0.13s, sys 0.36s
+[04/06/24 17:24:23.059] wall 0.55s, usr 0.14s, sys 0.39s
+[04/06/24 17:24:27.042] wall 0.59s, usr 0.15s, sys 0.42s
+[04/06/24 17:24:31.049] wall 0.63s, usr 0.16s, sys 0.46s
+[04/06/24 17:24:35.036] wall 0.66s, usr 0.17s, sys 0.48s
+[04/06/24 17:24:39.058] wall 0.72s, usr 0.18s, sys 0.52s
+[04/06/24 17:24:43.059] wall 0.77s, usr 0.20s, sys 0.55s
+[04/06/24 17:24:47.057] wall 0.82s, usr 0.22s, sys 0.59s
+[04/06/24 17:24:51.047] wall 0.87s, usr 0.23s, sys 0.62s
+[04/06/24 17:24:55.060] wall 0.92s, usr 0.24s, sys 0.67s
+[04/06/24 17:24:59.037] wall 0.95s, usr 0.25s, sys 0.69s
+[04/06/24 17:25:03.064] wall 1.01s, usr 0.26s, sys 0.74s
+[04/06/24 17:25:07.063] wall 1.07s, usr 0.29s, sys 0.77s

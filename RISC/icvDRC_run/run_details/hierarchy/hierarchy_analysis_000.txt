@@ -1,0 +1,105 @@
+* Description of frequently used terms in hierarchy_analysis files*
+M indicates that the value of that column is in millions
+Hier Plc Count(Hierarchical Placement Count) : Number of unique instances of the cell in another cell (Parent)
+Flat Plc Count(Flat Placement Count)         : Total number of instances of the cell in the layout
+
+Example : 
+                               A                     
+                              / \                   Cell  Hier Plc Count Flat Plc Count 
+                             /   \                     A               1              1 
+                            B     B                    B               2              2 
+                           / \  /  \                   C               2              4 
+                          C   C C   C                
+------------------------------------------------------------------------------------------------------ 
+
+
+* Cells with flat area > 0.01 of top cell *
+Reports cells with flat area > 0.01 of top cell
+
+Flat A(Flat Area) : Total area covered by this cell in the layout(cell area * flat placement count)
+Cell A(Cell Area) : Area of this cell
+Percent of top    : Percentage of area of this cell w.r.t area of top cell
+This table contains 10 entries
+Original table contains 10 entries
+
+ Name                                          | Flat A (mm^2), Cell A (mm^2), Flat Plc Count, Hier Plc Count, Percent of top
+-----------------------------------------------
+ msrv32_top                                    |         0.053,         0.053,              1,              1,       100.00 %
+ SDFFASRSX1_HVT                                |         0.015,         0.000,           1098,           1098,        27.34 %
+ machine_counter                               |         0.007,         0.007,              1,              1,        13.59 %
+ msrv32_alu                                    |         0.004,         0.004,              1,              1,         6.55 %
+ AO221X1_HVT                                   |         0.002,         0.000,            426,            426,         2.97 %
+ SDFFSSRX1_RVT                                 |         0.001,         0.000,            145,            145,         2.71 %
+ SDFFSSRX2_HVT                                 |         0.001,         0.000,            126,            126,         2.55 %
+ AO222X1_HVT                                   |         0.001,         0.000,            211,            211,         1.58 %
+ AO22X1_HVT                                    |         0.001,         0.000,            253,            253,         1.50 %
+ AO221X1_RVT                                   |         0.001,         0.000,            155,            155,         1.07 %
+===============================================
+
+* Large-Area cells and child area ratio *
+This table reports cells with large areas and ratio of its area with total area covered by its children
+
+Num Inst(Number of instances) : Total Number of instances of the cell
+Child A(Child Area)           : Total area covered by all the children of the cell
+Pct of parent(Percent of area): Percentage of total area covered by its childern w.r.t area of this cell
+This table contains 10 entries
+Original table contains 10 entries
+
+ Name                                          | Flat A (mm^2), Cell A (mm^2), Num Inst (M), Child A (mm^2), Pct of parent
+-----------------------------------------------
+ msrv32_top                                    |         0.053,         0.053,        0.005,         0.040,       74.81 %
+ SDFFASRSX1_HVT                                |         0.015,         0.000,        0.000,         0.000,        0.00 %
+ machine_counter                               |         0.007,         0.007,        0.000,         0.000,        0.00 %
+ msrv32_alu                                    |         0.004,         0.004,        0.000,         0.000,        0.00 %
+ AO221X1_HVT                                   |         0.002,         0.000,        0.000,         0.000,        0.00 %
+ SDFFSSRX1_RVT                                 |         0.001,         0.000,        0.000,         0.000,        0.00 %
+ SDFFSSRX2_HVT                                 |         0.001,         0.000,        0.000,         0.000,        0.00 %
+ AO222X1_HVT                                   |         0.001,         0.000,        0.000,         0.000,        0.00 %
+ AO22X1_HVT                                    |         0.001,         0.000,        0.000,         0.000,        0.00 %
+ AO221X1_RVT                                   |         0.001,         0.000,        0.000,         0.000,        0.00 %
+===============================================
+
+* Layer Report with Estimated Data *
+Reports information of layers present in the layout
+
+Trap        : Number of hierarchical trapezoids in the layer
+Poly        : Number of hierarchical polygons in the layer
+Text        : Number of hierarchical text primitives in the layer
+Flat Trap   : Number of flat trapezoids 
+Flat Poly   : Number of flat polygons
+Flat Text   : Number of flat text primitives 
+Trap F/H    : Ratio of flat and hierarchical placements of the trapezoids
+Base, Metal, Via, Fill, Colored : Indicates layer intent
+This table contains 26 entries
+Original table contains 26 entries
+
+ Name                                          | Trap (M), Poly (M), Text (M), Flat Trap (M), Flat Poly (M), Flat Text (M), Trap F/H, Base, Metal, Via, Fill, Colored
+-----------------------------------------------
+ M2i                                           |    0.105,    0.105,    0.000,         0.105,         0.105,         0.000,     1.00,    0,     0,   0,    0,       0
+ M3i                                           |    0.066,    0.065,    0.000,         0.066,         0.065,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA2i                                         |    0.057,    0.057,    0.000,         0.057,         0.057,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA1i                                         |    0.054,    0.054,    0.000,         0.054,         0.054,         0.000,     1.00,    0,     0,   0,    0,       0
+ M1i                                           |    0.046,    0.038,    0.000,         0.460,         0.112,         0.000,     9.92,    0,     0,   0,    0,       0
+ VIA8i                                         |    0.037,    0.037,    0.000,         0.037,         0.037,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA3i                                         |    0.033,    0.033,    0.000,         0.033,         0.033,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA4i                                         |    0.030,    0.030,    0.000,         0.030,         0.030,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA5i                                         |    0.028,    0.028,    0.000,         0.028,         0.028,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA6i                                         |    0.028,    0.028,    0.000,         0.028,         0.028,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA7i                                         |    0.028,    0.028,    0.000,         0.028,         0.028,         0.000,     1.00,    0,     0,   0,    0,       0
+ M4i                                           |    0.020,    0.019,    0.000,         0.020,         0.019,         0.000,     1.00,    0,     0,   0,    0,       0
+ COi                                           |    0.013,    0.013,    0.000,         0.618,         0.618,         0.000,    46.49,    0,     0,   0,    0,       0
+ M5i                                           |    0.012,    0.012,    0.000,         0.012,         0.012,         0.000,     1.00,    0,     0,   0,    0,       0
+ M6i                                           |    0.009,    0.009,    0.000,         0.009,         0.009,         0.000,     1.00,    0,     0,   0,    0,       0
+ M7i                                           |    0.008,    0.008,    0.000,         0.008,         0.008,         0.000,     1.00,    0,     0,   0,    0,       0
+ M8i                                           |    0.005,    0.005,    0.000,         0.005,         0.005,         0.000,     1.00,    0,     0,   0,    0,       0
+ POi                                           |    0.002,    0.002,    0.000,         0.106,         0.106,         0.000,    44.82,    0,     0,   0,    0,       0
+ M9i                                           |    0.001,    0.001,    0.000,         0.001,         0.001,         0.000,     1.00,    0,     0,   0,    0,       0
+ NWELLi                                        |    0.000,    0.000,    0.000,         0.008,         0.005,         0.000,    43.38,    0,     0,   0,    0,       0
+ M3i_text                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ M4i_text                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ M5i_text                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ M6i_text                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ MRDLi                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ DNWi                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+===============================================
+

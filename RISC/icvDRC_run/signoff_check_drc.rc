@@ -1,0 +1,14 @@
+/* ============================================ */
+/*   Environment setup for signoff_check_drc   */
+/* ============================================ */
+#define SNPSINDESIGN 
+#define USE_ICC2 
+#define RESOLUTION_OPTIONS_LAYOUT_RESOLUTION_CHECK {}
+#define SNPSINDESIGN_DRC_RUN_DIRECTORY /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC
+#define NDM_OPTIONS_LVS_BLACK_BOX_CELLS {"machine_counter" , "msrv32_alu"}
+#define NDM_OPTIONS_MISSING_CELL ABORT
+#define NDM_OPTIONS_INSTANCE_NAMES DISCARD
+#define NDM_OPTIONS_INTERNAL_DESIGNS {{use=FILL_USE,read_from=ALL,out_of_date=DISCARD}}
+#define NDM_OPTIONS_MERGE_BLOCKAGE_WITH_LAYER { views={DESIGN_VIEW,FRAME_VIEW}, cells={"*","!"+get_top_cell()} }
+#define NDM_OPTIONS_SEARCH_PATH "/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/dw/syn_ver /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/dw/sim_ver /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/libraries/syn  ."
+#define ERROR_OPTIONS_ERROR_LIMIT_PER_CHECK 10000

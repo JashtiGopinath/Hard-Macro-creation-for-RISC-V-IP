@@ -1,0 +1,15 @@
+ICV_HOME_DIR      = /home/cad/eda/SYNOPSYS/IC_VALIDATOR-2022.12/icvalidator/U-2022.12-SP5
+ICV_COORDS_BIT    = 32
+WORKING_DIR       = .
+INLIB             = risc_1.nlib
+INLIB_PATH        = /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC
+BLOCK             = msrv32_top
+CREATE_VUE_OUTPUT = TRUE
+PYDB_PATH         = run_details/pydb
+RUN_DETAILS_DIR   = run_details
+NDB_PATH          = run_details/.ndb
+REPORT_LAYOUT_ERRORS = HIERARCHICAL
+FORMAT            = NDM
+SCHEMATIC_FORMAT  = ICV
+GROUP_PATH        = run_details/group
+RUNSET_FILE_NAME  = saed32nm_1p9m_drc_rules.rs

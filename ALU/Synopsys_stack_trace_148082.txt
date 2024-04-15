@@ -1,0 +1,1310 @@
+GNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-120.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Attaching to process 148082
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/dgcom_exec...(no debugging symbols found)...done.
+Reading symbols from /lib64/libblkid.so.1...Reading symbols from /lib64/libblkid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libblkid.so.1
+Reading symbols from /lib64/libpthread.so.0...(no debugging symbols found)...done.
+[New LWP 148464]
+[New LWP 148463]
+[New LWP 148462]
+[New LWP 148461]
+[New LWP 148460]
+[New LWP 148459]
+[New LWP 148458]
+[New LWP 148457]
+[New LWP 148456]
+[New LWP 148455]
+[New LWP 148454]
+[New LWP 148453]
+[New LWP 148452]
+[New LWP 148406]
+[New LWP 148387]
+[New LWP 148376]
+[New LWP 148308]
+[New LWP 148307]
+[New LWP 148306]
+[New LWP 148305]
+[New LWP 148304]
+[New LWP 148287]
+[New LWP 148177]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+Loaded symbols for /lib64/libpthread.so.0
+Reading symbols from /lib64/librt.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/librt.so.1
+Reading symbols from /lib64/libdl.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdl.so.2
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libNPI.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libNPI.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libnpiL1.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libnpiL1.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libnffr.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libnffr.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libnsys.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libnsys.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libz.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libz.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_regex-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_regex-mt.so.1.77.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_system-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_system-mt.so.1.77.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_filesystem-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_filesystem-mt.so.1.77.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_serialization-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_serialization-mt.so.1.77.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_thread-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_thread-mt.so.1.77.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_iostreams-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_iostreams-mt.so.1.77.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_timer-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_timer-mt.so.1.77.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_chrono-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_chrono-mt.so.1.77.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libFWMerge.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libFWMerge.so
+Reading symbols from /lib64/libcrypt.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libcrypt.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libnffw.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libnffw.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtbb.so.12...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtbb.so.12
+Reading symbols from /lib64/libuuid.so.1...Reading symbols from /lib64/libuuid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libuuid.so.1
+Reading symbols from /lib64/libutil.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libutil.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtbbmalloc.so.2...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtbbmalloc.so.2
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/liblzma.so.5...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/liblzma.so.5...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/liblzma.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/libpython3.6m.so.1.0...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/libpython3.6m.so.1.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libhdf5.so.103...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libhdf5.so.103
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libhdf5_hl.so.100...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libhdf5_hl.so.100
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtensorflow_cc.so.2...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtensorflow_cc.so.2
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtensorflow_framework.so.2...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtensorflow_framework.so.2
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libprotobuf.so.19...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libprotobuf.so.19
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libpng16.so.16...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libpng16.so.16
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libgfortran.so.5...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libgfortran.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libquadmath.so.0...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libquadmath.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmpi.so.12...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmpi.so.12
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libAlembic.so.1.8...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libAlembic.so.1.8
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libDF-ISE.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libDF-ISE.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libfloops_KMCInclude.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libfloops_KMCInclude.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libfloops.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libfloops.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libHalf-2_5.so.25...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libHalf-2_5.so.25
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libibl.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libibl.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libIex-2_5.so.25...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libIex-2_5.so.25
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libIexMath-2_5.so.25...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libIexMath-2_5.so.25
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libIlmThread-2_5.so.25...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libIlmThread-2_5.so.25
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libImath-2_5.so.25...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libImath-2_5.so.25
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgBaseMpi.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgBaseMpi.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgBase.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgBase.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgBrep.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgBrep.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgContainers.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgContainers.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgContouring.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgContouring.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgDualContourVolume.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgDualContourVolume.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgGCPLUS.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgGCPLUS.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgGC.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgGC.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgGeom.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgGeom.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgIO.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgIO.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgMesher.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgMesher.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgMesh.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgMesh.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgpBase.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgpBase.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgpGCPLUS.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgpGCPLUS.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgpGC.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgpGC.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgpLevelset.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgpLevelset.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgpMask.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgpMask.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgSimpleMesh.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmgSimpleMesh.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsinterconnect_sidevice.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsinterconnect_sidevice.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsinterconnect_simechanics.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsinterconnect_simechanics.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsinterconnect_siUtil.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsinterconnect_siUtil.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsinterconnect_solve.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsinterconnect_solve.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtcad_fw_comm.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtcad_fw_comm.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libTcadGeom.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libTcadGeom.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libTcadMath.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libTcadMath.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtdi.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtdi.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtdr.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtdr.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libthi.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libthi.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtsi.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtsi.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libzstd.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libzstd.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/liblog4cxx.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/liblog4cxx.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtbb.so.2...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtbb.so.2
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libcholmod.so.3...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libcholmod.so.3
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsuitesparseconfig.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsuitesparseconfig.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libcolamd.so.2...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libcolamd.so.2
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libccolamd.so.2...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libccolamd.so.2
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libamd.so.2...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libamd.so.2
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libcamd.so.2...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libcamd.so.2
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmetis.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmetis.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/mesa/libGL.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/mesa/libGL.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libxcb-glx.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libxcb-glx.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libxcb-glx.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkChartsCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkChartsCore-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonColor-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonColor-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonComputationalGeometry-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonComputationalGeometry-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonCore-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonDataModel-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonDataModel-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonExecutionModel-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonExecutionModel-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonMath-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonMath-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonMisc-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonMisc-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonSystem-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonSystem-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonTransforms-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkCommonTransforms-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkDICOMParser-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkDICOMParser-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkDomainsChemistry-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkDomainsChemistry-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkdoubleconversion-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkdoubleconversion-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkexodusII-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkexodusII-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkexpat-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkexpat-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersAMR-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersAMR-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersCore-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersExtraction-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersExtraction-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersFlowPaths-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersFlowPaths-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersGeneral-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersGeneral-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersGeneric-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersGeneric-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersGeometry-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersGeometry-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersHybrid-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersHybrid-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersHyperTree-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersHyperTree-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersImaging-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersImaging-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersModeling-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersModeling-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersParallel-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersParallel-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersParallelImaging-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersParallelImaging-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersPoints-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersPoints-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersProgrammable-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersProgrammable-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersSelection-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersSelection-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersSMP-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersSMP-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersSources-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersSources-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersStatistics-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersStatistics-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersTexture-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersTexture-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersTopology-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersTopology-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersVerdict-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkFiltersVerdict-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkfreetype-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkfreetype-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkGeovisCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkGeovisCore-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkgl2ps-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkgl2ps-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkglew-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkglew-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkGUISupportQt-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkGUISupportQt-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkGUISupportQtSQL-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkGUISupportQtSQL-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkhdf5-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkhdf5-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkhdf5_hl-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkhdf5_hl-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingColor-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingColor-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingCore-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingFourier-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingFourier-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingGeneral-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingGeneral-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingHybrid-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingHybrid-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingMath-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingMath-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingMorphological-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingMorphological-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingSources-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingSources-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingStatistics-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingStatistics-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingStencil-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkImagingStencil-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkInfovisCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkInfovisCore-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkInfovisLayout-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkInfovisLayout-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkInteractionImage-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkInteractionImage-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkInteractionStyle-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkInteractionStyle-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkInteractionWidgets-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkInteractionWidgets-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOAMR-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOAMR-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOAsynchronous-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOAsynchronous-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOCityGML-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOCityGML-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOCore-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOEnSight-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOEnSight-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOExodus-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOExodus-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOExport-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOExport-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOExportGL2PS-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOExportGL2PS-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOExportPDF-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOExportPDF-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOGeometry-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOGeometry-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOImage-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOImage-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOImport-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOImport-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOInfovis-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOInfovis-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOLegacy-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOLegacy-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOLSDyna-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOLSDyna-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOMINC-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOMINC-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOMotionFX-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOMotionFX-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOMovie-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOMovie-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIONetCDF-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIONetCDF-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOOggTheora-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOOggTheora-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOParallel-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOParallel-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOParallelXML-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOParallelXML-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOPLY-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOPLY-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOSegY-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOSegY-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOSQL-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOSQL-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOTecplotTable-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOTecplotTable-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOVeraOut-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOVeraOut-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOVideo-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOVideo-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOXML-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOXML-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOXMLParser-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkIOXMLParser-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkjpeg-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkjpeg-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkjsoncpp-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkjsoncpp-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtklibharu-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtklibharu-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtklibproj-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtklibproj-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtklibxml2-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtklibxml2-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkloguru-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkloguru-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtklz4-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtklz4-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtklzma-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtklzma-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkmetaio-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkmetaio-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtknetcdf-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtknetcdf-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkogg-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkogg-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkParallelCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkParallelCore-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkParallelDIY-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkParallelDIY-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkpng-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkpng-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkpugixml-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkpugixml-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingAnnotation-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingAnnotation-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingContext2D-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingContext2D-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingCore-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingFreeType-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingFreeType-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingGL2PSOpenGL2-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingGL2PSOpenGL2-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingImage-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingImage-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingLabel-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingLabel-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingLOD-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingLOD-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingOpenGL2-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingOpenGL2-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingQt-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingQt-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingSceneGraph-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingSceneGraph-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingUI-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingUI-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingVolume-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingVolume-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingVolumeOpenGL2-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingVolumeOpenGL2-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingVtkJS-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkRenderingVtkJS-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtksqlite-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtksqlite-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtksys-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtksys-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkTestingRendering-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkTestingRendering-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtktheora-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtktheora-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtktiff-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtktiff-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkverdict-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkverdict-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkViewsContext2D-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkViewsContext2D-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkViewsCore-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkViewsCore-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkViewsInfovis-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkViewsInfovis-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkViewsQt-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkViewsQt-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkWrappingTools-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkWrappingTools-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkzlib-9.0.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/libvtkzlib-9.0.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libarrow.so.16...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libarrow.so.16
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libparquet.so.16...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libparquet.so.16
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libpugixml.so.1...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libpugixml.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libpugixml.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/librdkafka++.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/librdkafka++.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/librdkafka.so.1...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/librdkafka.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsamcpp.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsamcpp.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Widgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Widgets.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Svg.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Svg.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Gui.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Gui.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5X11Extras.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5X11Extras.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5PrintSupport.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5PrintSupport.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Network.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Network.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Xml.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Xml.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Sql.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Sql.so.5
+Reading symbols from /lib64/libX11.so.6...Reading symbols from /lib64/libX11.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libX11.so.6
+Reading symbols from /lib64/libxcb.so.1...Reading symbols from /lib64/libxcb.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libxcb.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libfontconfig.so.1...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libfontconfig.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libfontconfig.so.1
+Reading symbols from /lib64/libXft.so.2...Reading symbols from /lib64/libXft.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXft.so.2
+Reading symbols from /lib64/libXss.so.1...Reading symbols from /lib64/libXss.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXss.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5WebChannel.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5WebChannel.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5WebSockets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5WebSockets.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5WebKitWidgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5WebKitWidgets.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5WebKit.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5WebKit.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Test.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Test.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/libstdc++.so.6...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/libstdc++.so.6
+Reading symbols from /lib64/libm.so.6...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libm.so.6
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/libgomp.so.1...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/libgomp.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/libgcc_s.so.1...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/libgcc_s.so.1
+Reading symbols from /lib64/libc.so.6...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libc.so.6
+Reading symbols from /lib64/ld-linux-x86-64.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/ld-linux-x86-64.so.2
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libvfs.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libvfs.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_atomic-mt.so.1.77.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_77_0_atomic-mt.so.1.77.0
+Reading symbols from /lib64/libbz2.so.1...Reading symbols from /lib64/libbz2.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libbz2.so.1
+Reading symbols from /lib64/libfreebl3.so...Reading symbols from /lib64/libfreebl3.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libfreebl3.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/../lib/libssl.so.1.0.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/../lib/libssl.so.1.0.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/../lib/libcrypto.so.1.0.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/../lib/libcrypto.so.1.0.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libTcadBase.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libTcadBase.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmongoclient.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmongoclient.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_thread-mt.so.1.73.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_thread-mt.so.1.73.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_chrono-mt.so.1.73.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_chrono-mt.so.1.73.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_system-mt.so.1.73.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_system-mt.so.1.73.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_regex-mt.so.1.73.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_regex-mt.so.1.73.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libLibScanFEcmdSTopo.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libLibScanFEcmdSTopo.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libStlUtilities.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libStlUtilities.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/liblpsolve55.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/liblpsolve55.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libScanFECommonSTopo.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libScanFECommonSTopo.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_numpy36.so.1.73.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_numpy36.so.1.73.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_python36.so.1.73.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_python36.so.1.73.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libssl.so.47...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libssl.so.47
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libcrypto.so.45...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libcrypto.so.45
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmpicxx.so.12...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libmpicxx.so.12
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtbcload-O.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtbcload-O.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtcl-mt-O.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libtcl-mt-O.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_filesystem-mt.so.1.73.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_filesystem-mt.so.1.73.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_serialization-mt.so.1.73.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libsnps_boost_1_73_0_serialization-mt.so.1.73.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/mesa/libglapi.so.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/mesa/libglapi.so.0
+Reading symbols from /lib64/libXext.so.6...Reading symbols from /lib64/libXext.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXext.so.6
+Reading symbols from /lib64/libtinfo.so.5...Reading symbols from /lib64/libtinfo.so.5...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libtinfo.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/mesa/libsensors.so.4...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/mesa/libsensors.so.4...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/mesa/libsensors.so.4
+Reading symbols from /lib64/libXau.so.6...Reading symbols from /lib64/libXau.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXau.so.6
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/../export/libGLX.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/../export/libGLX.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/../export/libGLX.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/../export/libOpenGL.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/../export/libOpenGL.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/../export/libOpenGL.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libcrypto.so.10...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libcrypto.so.10...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libcrypto.so.10
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libssl.so.10...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libssl.so.10...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libssl.so.10
+Reading symbols from /lib64/libsasl2.so.3...Reading symbols from /lib64/libsasl2.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libsasl2.so.3
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libpng15.so.15...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libpng15.so.15...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libpng15.so.15
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libharfbuzz.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libharfbuzz.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libharfbuzz.so.0
+Reading symbols from /lib64/libgssapi_krb5.so.2...Reading symbols from /lib64/libgssapi_krb5.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgssapi_krb5.so.2
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libicui18n.so.50...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libicui18n.so.50...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libicui18n.so.50
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libicuuc.so.50...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libicuuc.so.50...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libicuuc.so.50
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libicudata.so.50...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libicudata.so.50...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libicudata.so.50
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libfreetype.so.6...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libfreetype.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/export/libfreetype.so.6
+Reading symbols from /lib64/libexpat.so.1...Reading symbols from /lib64/libexpat.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libexpat.so.1
+Reading symbols from /lib64/libXrender.so.1...Reading symbols from /lib64/libXrender.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXrender.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5Qml.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5Qml.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libxslt.so.1...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libxslt.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libxslt.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libxml2.so.2...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libxml2.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libxml2.so.2
+Reading symbols from /lib64/libsqlite3.so.0...Reading symbols from /lib64/libsqlite3.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libsqlite3.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5Sensors.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5Sensors.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5Positioning.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5Positioning.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5MultimediaWidgets.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5MultimediaWidgets.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5Multimedia.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5Multimedia.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5OpenGL.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5OpenGL.so.5
+Reading symbols from /lib64/libXcomposite.so.1...Reading symbols from /lib64/libXcomposite.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXcomposite.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libjpeg.so.62...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libjpeg.so.62...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libjpeg.so.62
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libwebp.so.4...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libwebp.so.4...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../export/libwebp.so.4
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5Quick.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5Quick.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5QmlModels.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/../qt/libQt5QmlModels.so.5
+Reading symbols from /lib64/libresolv.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libresolv.so.2
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/../export/libGLdispatch.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/../export/libGLdispatch.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/vtk/../export/libGLdispatch.so.0
+Reading symbols from /lib64/libkrb5.so.3...Reading symbols from /lib64/libkrb5.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libkrb5.so.3
+Reading symbols from /lib64/libcom_err.so.2...Reading symbols from /lib64/libcom_err.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libcom_err.so.2
+Reading symbols from /lib64/libk5crypto.so.3...Reading symbols from /lib64/libk5crypto.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libk5crypto.so.3
+Reading symbols from /lib64/libkrb5support.so.0...Reading symbols from /lib64/libkrb5support.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libkrb5support.so.0
+Reading symbols from /lib64/libglib-2.0.so.0...Reading symbols from /lib64/libglib-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libglib-2.0.so.0
+Reading symbols from /lib64/libgraphite2.so.3...Reading symbols from /lib64/libgraphite2.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgraphite2.so.3
+Reading symbols from /lib64/libkeyutils.so.1...Reading symbols from /lib64/libkeyutils.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libkeyutils.so.1
+Reading symbols from /lib64/libpulse-mainloop-glib.so.0...Reading symbols from /lib64/libpulse-mainloop-glib.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpulse-mainloop-glib.so.0
+Reading symbols from /lib64/libpulse.so.0...Reading symbols from /lib64/libpulse.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpulse.so.0
+Reading symbols from /lib64/libselinux.so.1...Reading symbols from /lib64/libselinux.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libselinux.so.1
+Reading symbols from /lib64/libpcre.so.1...Reading symbols from /lib64/libpcre.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libpcre.so.1
+Reading symbols from /usr/lib64/pulseaudio/libpulsecommon-10.0.so...Reading symbols from /usr/lib64/pulseaudio/libpulsecommon-10.0.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/pulseaudio/libpulsecommon-10.0.so
+Reading symbols from /lib64/libcap.so.2...Reading symbols from /lib64/libcap.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libcap.so.2
+Reading symbols from /lib64/libdbus-1.so.3...Reading symbols from /lib64/libdbus-1.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdbus-1.so.3
+Reading symbols from /lib64/libX11-xcb.so.1...Reading symbols from /lib64/libX11-xcb.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libX11-xcb.so.1
+Reading symbols from /lib64/libICE.so.6...Reading symbols from /lib64/libICE.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libICE.so.6
+Reading symbols from /lib64/libSM.so.6...Reading symbols from /lib64/libSM.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libSM.so.6
+Reading symbols from /lib64/libXtst.so.6...Reading symbols from /lib64/libXtst.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXtst.so.6
+Reading symbols from /lib64/libsystemd.so.0...Reading symbols from /lib64/libsystemd.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libsystemd.so.0
+Reading symbols from /lib64/libwrap.so.0...Reading symbols from /lib64/libwrap.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libwrap.so.0
+Reading symbols from /lib64/libsndfile.so.1...Reading symbols from /lib64/libsndfile.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libsndfile.so.1
+Reading symbols from /lib64/libasyncns.so.0...Reading symbols from /lib64/libasyncns.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libasyncns.so.0
+Reading symbols from /lib64/libattr.so.1...Reading symbols from /lib64/libattr.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libattr.so.1
+Reading symbols from /lib64/libXi.so.6...Reading symbols from /lib64/libXi.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXi.so.6
+Reading symbols from /lib64/liblz4.so.1...Reading symbols from /lib64/liblz4.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/liblz4.so.1
+Reading symbols from /lib64/libgcrypt.so.11...Reading symbols from /lib64/libgcrypt.so.11...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgcrypt.so.11
+Reading symbols from /lib64/libgpg-error.so.0...Reading symbols from /lib64/libgpg-error.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgpg-error.so.0
+Reading symbols from /lib64/libdw.so.1...Reading symbols from /lib64/libdw.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdw.so.1
+Reading symbols from /lib64/libnsl.so.1...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnsl.so.1
+Reading symbols from /lib64/libgsm.so.1...Reading symbols from /lib64/libgsm.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgsm.so.1
+Reading symbols from /lib64/libFLAC.so.8...Reading symbols from /lib64/libFLAC.so.8...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libFLAC.so.8
+Reading symbols from /lib64/libvorbisenc.so.2...Reading symbols from /lib64/libvorbisenc.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libvorbisenc.so.2
+Reading symbols from /lib64/libvorbis.so.0...Reading symbols from /lib64/libvorbis.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libvorbis.so.0
+Reading symbols from /lib64/libogg.so.0...Reading symbols from /lib64/libogg.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libogg.so.0
+Reading symbols from /lib64/libelf.so.1...Reading symbols from /lib64/libelf.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libelf.so.1
+Reading symbols from /usr/lib64/gconv/UTF-16.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/gconv/UTF-16.so
+Reading symbols from /lib64/libnss_files.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/libnss_files.so.2
+Reading symbols from /lib64/libudev.so.1...Reading symbols from /lib64/libudev.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libudev.so.1
+Reading symbols from /lib64/libdbus-glib-1.so.2...Reading symbols from /lib64/libdbus-glib-1.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libdbus-glib-1.so.2
+Reading symbols from /lib64/libgio-2.0.so.0...Reading symbols from /lib64/libgio-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgio-2.0.so.0
+Reading symbols from /lib64/libgobject-2.0.so.0...Reading symbols from /lib64/libgobject-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgobject-2.0.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/libffi.so.6...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/libffi.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib_python/libffi.so.6
+Reading symbols from /lib64/libgmodule-2.0.so.0...Reading symbols from /lib64/libgmodule-2.0.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libgmodule-2.0.so.0
+Reading symbols from /lib64/libmount.so.1...Reading symbols from /lib64/libmount.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libmount.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libopenblasp-r0-09e95953.3.13.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libopenblasp-r0-09e95953.3.13.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libgfortran-2e0d59d6.so.5.0.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libgfortran-2e0d59d6.so.5.0.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libquadmath-2d0c479f.so.0.0.0...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libquadmath-2d0c479f.so.0.0.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libz-eb09ad1d.so.1.2.3...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/core/../../numpy.libs/libz-eb09ad1d.so.1.2.3
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/fft/_pocketfft_internal.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/fft/_pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/bit_generator.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/_common.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/_common.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_md5.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_md5.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_sha1.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_sha1.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_sha256.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_sha256.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_sha512.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_sha512.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/_bounded_integers.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/_bounded_integers.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/_mt19937.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/_mt19937.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/_philox.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/_philox.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/_pcg64.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/_pcg64.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/_sfc64.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/_sfc64.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/_generator.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/numpy/random/_generator.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/array.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/array.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_multiprocessing.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/_multiprocessing.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/mmap.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/lib-dynload/mmap.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/psutil/_psutil_linux.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/psutil/_psutil_linux.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/psutil/_psutil_posix.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/etc/Python/lib/python3.6/site-packages/psutil/_psutil_posix.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/libqxcb.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/libqxcb.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../qt/libQt5XcbQpa.so.5...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../qt/libQt5XcbQpa.so.5
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-icccm.so.4...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-icccm.so.4...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-icccm.so.4
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-image.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-image.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-image.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-shm.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-shm.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-shm.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-keysyms.so.1...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-keysyms.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-keysyms.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-randr.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-randr.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-randr.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-render-util.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-render-util.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-render-util.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-render.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-render.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-render.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-shape.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-shape.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-shape.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-sync.so.1...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-sync.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-sync.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-xfixes.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-xfixes.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-xfixes.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-xinerama.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-xinerama.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-xinerama.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-xkb.so.1...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-xkb.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-xkb.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-xinput.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-xinput.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-xinput.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxkbcommon-x11.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxkbcommon-x11.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxkbcommon-x11.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxkbcommon.so.0...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxkbcommon.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxkbcommon.so.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-util.so.1...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-util.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../export/libxcb-util.so.1
+Reading symbols from /lib64/libXcursor.so.1...Reading symbols from /lib64/libXcursor.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXcursor.so.1
+Reading symbols from /lib64/libXfixes.so.3...Reading symbols from /lib64/libXfixes.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libXfixes.so.3
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqgif.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqgif.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqicns.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqicns.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqico.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqico.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqjpeg.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqjpeg.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqmng.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqmng.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/../../export/libmng.so.1...Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/../../export/libmng.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/../../export/libmng.so.1
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqsvg.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqsvg.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqtga.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqtga.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqtiff.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqtiff.so
+Reading symbols from /lib64/libtiff.so.5...Reading symbols from /lib64/libtiff.so.5...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libtiff.so.5
+Reading symbols from /lib64/libjbig.so.2.0...Reading symbols from /lib64/libjbig.so.2.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libjbig.so.2.0
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqwbmp.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqwbmp.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqwebp.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/imageformats/libqwebp.so
+Reading symbols from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/xcbglintegrations/libqxcb-glx-integration.so...(no debugging symbols found)...done.
+Loaded symbols for /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/xcbglintegrations/libqxcb-glx-integration.so
+0x00007ff658378659 in waitpid () from /lib64/libc.so.6
+Missing separate debuginfos, use: debuginfo-install bzip2-libs-1.0.6-13.el7.x86_64 cyrus-sasl-lib-2.1.26-24.el7_9.x86_64 dbus-glib-0.100-7.el7.x86_64 dbus-libs-1.10.24-15.el7.x86_64 elfutils-libelf-0.176-5.el7.x86_64 elfutils-libs-0.176-5.el7.x86_64 expat-2.1.0-15.el7_9.x86_64 flac-libs-1.3.0-5.el7_1.x86_64 glib2-2.56.1-9.el7_9.x86_64 glibc-2.17-326.el7_9.x86_64 graphite2-1.3.10-1.el7_3.x86_64 gsm-1.0.13-11.el7.x86_64 jbigkit-libs-2.0-11.el7.x86_64 keyutils-libs-1.5.8-3.el7.x86_64 krb5-libs-1.15.1-55.el7_9.x86_64 libICE-1.0.9-9.el7.x86_64 libSM-1.2.2-2.el7.x86_64 libX11-1.6.7-4.el7_9.x86_64 libXScrnSaver-1.2.2-6.1.el7.x86_64 libXau-1.0.8-2.1.el7.x86_64 libXcomposite-0.4.4-4.1.el7.x86_64 libXcursor-1.1.15-1.el7.x86_64 libXext-1.3.3-3.el7.x86_64 libXfixes-5.0.3-1.el7.x86_64 libXft-2.3.2-2.el7.x86_64 libXi-1.7.9-1.el7.x86_64 libXrender-0.9.10-1.el7.x86_64 libXtst-1.2.3-1.el7.x86_64 libasyncns-0.8-7.el7.x86_64 libattr-2.4.46-13.el7.x86_64 libblkid-2.23.2-65.el7_9.1.x86_64 libcap-2.22-11.el7.x86_64 libcom_err-1.42.9-19.el7.x86_64 libgcrypt-1.5.3-14.el7.x86_64 libgpg-error-1.12-3.el7.x86_64 libmount-2.23.2-65.el7_9.1.x86_64 libogg-1.3.0-7.el7.x86_64 libselinux-2.5-15.el7.x86_64 libsndfile-1.0.25-12.el7_9.1.x86_64 libtiff-4.0.3-35.el7.x86_64 libuuid-2.23.2-65.el7_9.1.x86_64 libvorbis-1.3.3-8.el7.1.x86_64 libxcb-1.13-1.el7.x86_64 lz4-1.8.3-1.el7.x86_64 ncurses-libs-5.9-14.20130511.el7_4.x86_64 nss-softokn-freebl-3.90.0-6.el7_9.x86_64 pcre-8.32-17.el7.x86_64 pulseaudio-libs-10.0-6.el7_9.x86_64 pulseaudio-libs-glib2-10.0-6.el7_9.x86_64 sqlite-3.7.17-8.el7_7.1.x86_64 systemd-libs-219-78.el7_9.9.x86_64 tcp_wrappers-libs-7.6-77.el7.x86_64
+(gdb) (gdb) 
+Thread 24 (Thread 0x7ff64afff700 (LWP 148177)):
+#0  0x00007ff6c4feba35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
+#1  0x00007ff65ef88ea5 in background_thread_sleep (tsdn=<optimized out>, interval=<optimized out>, info=<optimized out>) at src/background_thread.c:232
+#2  background_work_sleep_once (ind=0, info=<optimized out>, tsdn=<optimized out>) at src/background_thread.c:307
+#3  background_thread0_work (tsd=<optimized out>) at src/background_thread.c:452
+#4  background_work (ind=<optimized out>, tsd=<optimized out>) at src/background_thread.c:490
+#5  background_thread_entry () at src/background_thread.c:522
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 23 (Thread 0x7ff6439a1700 (LWP 148287)):
+#0  0x00007ff6583a8b43 in select () from /lib64/libc.so.6
+#1  0x000000003cc88646 in SNPSee_554ec7c90557bab679d871cd58526530 ()
+#2  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#4  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 22 (Thread 0x7ff641921700 (LWP 148304)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82d3ac) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82d3ac) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82d3a0) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82d380) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82d380) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 21 (Thread 0x7ff642122700 (LWP 148305)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82d42c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82d42c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82d420) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82d400) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82d400) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 20 (Thread 0x7ff64091f700 (LWP 148306)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82d2ac) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82d2ac) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82d2a0) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82d280) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82d280) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 19 (Thread 0x7ff641120700 (LWP 148307)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82d32c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82d32c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82d320) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82d300) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82d300) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 18 (Thread 0x7ff64011e700 (LWP 148308)):
+#0  0x00007ff6583789fd in nanosleep () from /lib64/libc.so.6
+#1  0x00007ff658378894 in sleep () from /lib64/libc.so.6
+#2  0x000000003d472bed in SNPSee_736c226cc0f9d19c9f03a5b629cc1ac67c55aabab371cb493cbe3cfa24e022212a2bcadfa6af024e0b25b9779f0423a5d122967b11fd1c59 ()
+#3  0x00007ff6bea99bb0 in execute_native_thread_routine () at ../../../../../src/gcc-9.2.0/libstdc++-v3/src/c++11/thread.cc:80
+#4  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#5  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 17 (Thread 0x7ff5656f0700 (LWP 148376)):
+#0  0x00007ff6583a6ddd in poll () from /lib64/libc.so.6
+#1  0x00007ff65bbf3022 in _xcb_conn_wait () from /lib64/libxcb.so.1
+#2  0x00007ff65bbf4c6f in xcb_wait_for_event () from /lib64/libxcb.so.1
+#3  0x00007ff63c401858 in ?? () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../qt/libQt5XcbQpa.so.5
+#4  0x00007ff65c28dbb6 in ?? () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+#5  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#6  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#7  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 16 (Thread 0x7ff565ef1700 (LWP 148387)):
+#0  0x00007ff6583a8b43 in select () from /lib64/libc.so.6
+#1  0x00007ff675a962ce in ?? () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libfloops.so
+#2  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#3  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#4  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 15 (Thread 0x7ff56e6f2700 (LWP 148406)):
+#0  0x00007ff6c4feba35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
+#1  0x00007ff65c293a67 in QWaitCondition::wait(QMutex*, QDeadlineTimer) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+#2  0x00007ff65d44040a in ?? () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Widgets.so.5
+#3  0x00007ff65c28dbb6 in ?? () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+#4  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#5  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 14 (Thread 0x7ff576ef3700 (LWP 148452)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82d1ac) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82d1ac) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82d1a0) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82d180) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82d180) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 13 (Thread 0x7ff5f7f05700 (LWP 148453)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82cfac) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82cfac) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82cfa0) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82cf80) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82cf80) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 12 (Thread 0x7ff600706700 (LWP 148454)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82d0ac) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82d0ac) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82d0a0) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82d080) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82d080) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 11 (Thread 0x7ff5ef704700 (LWP 148455)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82d22c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82d22c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82d220) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82d200) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82d200) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 10 (Thread 0x7ff5e6f03700 (LWP 148456)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82d02c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82d02c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82d020) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82d000) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82d000) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 9 (Thread 0x7ff5de702700 (LWP 148457)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82ceac) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82ceac) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82cea0) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82ce80) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82ce80) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 8 (Thread 0x7ff5d5f01700 (LWP 148458)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82cdac) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82cdac) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82cda0) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82cd80) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82cd80) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 7 (Thread 0x7ff5c46fe700 (LWP 148459)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82cf2c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82cf2c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82cf20) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82cf00) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82cf00) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 6 (Thread 0x7ff5c4eff700 (LWP 148460)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82cd2c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82cd2c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82cd20) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82cd00) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82cd00) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 5 (Thread 0x7ff5cd700700 (LWP 148461)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82d12c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82d12c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82d120) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82d100) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82d100) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 4 (Thread 0x7ff5b3efd700 (LWP 148462)):
+#0  0x00007ff6583abe29 in syscall () from /lib64/libc.so.6
+#1  0x00007ff6c551addc in futex_wait (comparand=2, futex=0x7ff64b82ce2c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#2  tbb::detail::r1::binary_semaphore::P (this=0x7ff64b82ce2c) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/semaphore.h:290
+#3  0x00007ff6c5514a18 in commit_wait (c=..., this=0x7ff64b82ce20) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/rml_thread_monitor.h:243
+#4  run (this=0x7ff64b82ce00) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:274
+#5  tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7ff64b82ce00) at /remote/dept5188e/pfurnanz/p4/dgcom_s_dev/third_party_sw/tbb/oneTBB-2021.5.0/src/tbb/private_server.cpp:221
+#6  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#7  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#8  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x7ff5ab6fc700 (LWP 148463)):
+#0  0x00007ff6c4feba35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
+#1  0x00007ff65c293a67 in QWaitCondition::wait(QMutex*, QDeadlineTimer) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+#2  0x00007ff65c290f0e in ?? () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+#3  0x00007ff65c28dbb6 in ?? () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+#4  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#5  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 2 (Thread 0x7ff5a2efb700 (LWP 148464)):
+#0  0x00007ff6c4feba35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
+#1  0x00007ff65c293a67 in QWaitCondition::wait(QMutex*, QDeadlineTimer) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+#2  0x00007ff65c290f0e in ?? () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+#3  0x00007ff65c28dbb6 in ?? () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+#4  0x000000003d54b835 in SNPSee_d9c72da67e7a1f57e9891545cd875e2719332304182309de ()
+#5  0x00007ff6c4fe7ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00007ff6583b1b0d in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x7ff64b9dd880 (LWP 148082)):
+#0  0x00007ff658378659 in waitpid () from /lib64/libc.so.6
+#1  0x00007ff6582f5f62 in do_system () from /lib64/libc.so.6
+#2  0x00007ff6582f6311 in system () from /lib64/libc.so.6
+#3  0x000000003d552e60 in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c735317487fd2aa296d8a7317 ()
+#4  0x000000003d554860 in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c735317484a021951c8b3b34314fe2ade355c4696 ()
+#5  0x000000003d22a785 in SNPSee_9ea8dbbd5e74784445edf9ed12a0bc4777b489dcaefdb88f6c0991497dfc16a1f1ee4f39216b1e41 ()
+#6  0x000000003d22dbb5 in SNPSee_9ea8dbbd5e74784484d3cce2fced02c05a3783bc3b9f8fad49ba3bacacc1ac73ecf347a38534d06f ()
+#7  0x000000003ad56e6e in SNPSee_3da1e8e388eef22c4cad96049bb507e323902e731626b6f85a1de23e01dcfb84 ()
+#8  <signal handler called>
+#9  0x000000000f753890 in SNPSee_588b4169c771a19eb1e25188f9832e77b8e2dc15cf35208524d15b6e2b36b78affd81a52c679421f ()
+#10 0x000000000fe65a25 in SNPSee_f0161aab9db49500b25bd6c677e9615f6561e203637f225c67239f4f95967bc41314b77934261830e0311cad6cdeea36 ()
+#11 0x00000000260d3e7b in SNPSee_bef014634fd0760a8fa66f00e1df0193d2da04d92b61da1cfe8db122ef70269b5bd495b5d492e4ccc95154cc01ef216a ()
+#12 0x00000000260d5b48 in SNPSee_1d3b0421e450ab118683518d3f4721b0882db7f321191fae4a0e6777dce53efc3c423f3aaaf84b92 ()
+#13 0x00000000261bb6ba in SNPSee_fea60e9ca9fd3ff0ee3bace3abca2dc521099adcdd3e5fc4b5cda3672e1d70288c150e8b25c4314d04fefe309e192112358ce13d41e4f39e6dbe475eb66bbbb84d42031dacf1f13572a9cbfe7f2cfa2a34190fbe4d04c260 ()
+#14 0x00000000415a9fea in SNPSee_b33c09d91ce56faf32f307b3d0d7bfe6a81ece2db4e646fc7bfea8b89aa8d21c72b1b5fed030f4a7deda4e3278b32b4526a3d89237fa738f85fb51d28c1446d9b729f7d279808157 ()
+#15 0x0000000041568013 in SNPSee_18ae1188a5a6482452f3b67abbc891010269f13ce0e30d67 ()
+#16 0x000000004831f78c in SNPSee_57415c5b07ec5e8b8118f96e6212a2c42c69fd3f49376c0d ()
+#17 0x0000000048324815 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#18 0x00007ff675a35103 in Tcl_RecordAndEvalObj () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/libfloops.so
+#19 0x0000000041563612 in SNPSee_eb883b8643ac3618e46fbd7d90d84cd1d9cf41f1ea1de2433ad64196cf3fcc2ce0cf4135a98ecf06 ()
+#20 0x000000001d7e438d in SNPSee_bf47f8c354012225294e8116109cb5d025f4ccb7f287ad59c2366d27ef082a7abe934ab21f6bb090d48f7368a4129526962b5f385b08867de66d0440d3888337d8208e9ee5c4c9cb ()
+#21 0x000000001d6be0e5 in SNPSee_848f53926cc7d21a0b1a0e3cec9d3ef03d79fae4f741b2beb1d9e61bc8469679467712e699595aba26463d97eba60e22e02b598c8b482ec2d9046bfa95f0f185 ()
+#22 0x000000001d6c8ff0 in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d09b1487aa013d26f835ff7ccd94ffb63758abf28604ccf68 ()
+#23 0x000000001d6c94c7 in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24ddc44ac444ffd24dab81817742939461558b86efc9882e060f5cf6799b4197ba760a948a9120b34f41acf4fa4287f35e8 ()
+#24 0x000000001d6c9d2a in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d198741dbd99eb01272a55ba76ee2abd7563348609c8b2952ab7d3e71c5dc81c718aa12a98dfae9b5630d0c2fda34916be6c498847f4129e9a5f1fbcdd8c6a901 ()
+#25 0x000000001d6c9f2e in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d0b90ac4a4483f6665465d7c37ec4ce71313cfc0a471575a79ba413633ac1537032eb8775f5ebb55f6021eb7118e1e33a66a40a742570a303b3cdb1e9fad8ae33 ()
+#26 0x000000001d591985 in SNPSee_37fac15784d88354891e4f6c3d4468d602a5f38b5eb3f8351e252009fd049cf945e2143c62c1b30ee1dfe591ef116f8d7406750397c12e54 ()
+#27 0x000000001d586c87 in SNPSee_4eb7473bbd8c31ca7dbe33fb95e7f2894d18d20d984ac2855677d9ec48748e5573ea429583a28281 ()
+#28 0x00007ff65c4a9183 in ?? () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+#29 0x000000001d57785d in SNPSee_cdeb083ea4a76f3c84a481684b8f34846c50110dd7cda06cec546634e76f6a96f554e82db71b1a2b2180536887410c5d ()
+#30 0x00007ff65d25340b in QWidget::event(QEvent*) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Widgets.so.5
+#31 0x00007ff65d304993 in QFrame::event(QEvent*) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Widgets.so.5
+#32 0x00007ff65d3076b9 in QAbstractScrollArea::event(QEvent*) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Widgets.so.5
+#33 0x00007ff65d3dfde3 in QTextEdit::event(QEvent*) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Widgets.so.5
+#34 0x00007ff65d210c72 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Widgets.so.5
+#35 0x00007ff65d219d4b in QApplication::notify(QObject*, QEvent*) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Widgets.so.5
+#36 0x000000001d67fcf2 in SNPSee_9886f32bf8214536b53c393b333fc878d18fb2e7442b5d701a467a20027ebe559ea168b7367225d3b27edf708bb230dd ()
+#37 0x000000001d67fecd in SNPSee_9886f32bf8214536ec9f95d3ed3c7f5e64ba1872850550598ca741cdfb68659679bafee2b9707c59 ()
+#38 0x00007ff65c473e81 in QCoreApplication::notifyInternal2(QObject*, QEvent*) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+#39 0x00007ff65d2708be in ?? () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Widgets.so.5
+#40 0x00007ff65d210c72 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Widgets.so.5
+#41 0x00007ff65d219566 in QApplication::notify(QObject*, QEvent*) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Widgets.so.5
+#42 0x000000001d67fcf2 in SNPSee_9886f32bf8214536b53c393b333fc878d18fb2e7442b5d701a467a20027ebe559ea168b7367225d3b27edf708bb230dd ()
+#43 0x000000001d67fecd in SNPSee_9886f32bf8214536ec9f95d3ed3c7f5e64ba1872850550598ca741cdfb68659679bafee2b9707c59 ()
+#44 0x00007ff65c473e81 in QCoreApplication::notifyInternal2(QObject*, QEvent*) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+#45 0x00007ff65caec29c in QGuiApplicationPrivate::processKeyEvent(QWindowSystemInterfacePrivate::KeyEvent*) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Gui.so.5
+#46 0x00007ff65caf1579 in QGuiApplicationPrivate::processWindowSystemEvent(QWindowSystemInterfacePrivate::WindowSystemEvent*) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Gui.so.5
+#47 0x00007ff65cac9c0c in QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Gui.so.5
+#48 0x00007ff63c4029af in ?? () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/shlib/plugins/platforms/../../qt/libQt5XcbQpa.so.5
+#49 0x000000001c875ec9 in SNPSee_80051c3e017cbcc0e527ada7eaf06b628ebb3290689b73b98b5c8979b8a944fddf301789f3c04ee9e18e02a6e8dc8c8cc8d90585d03a00ea2c8799e295df6dd58edeea89405a17bcdadbde37f16eda3e ()
+#50 0x00000000483ebb72 in SNPSee_cf98e994a81a3699f563cc87d9a119de ()
+#51 0x000000001c87611f in SNPSee_80051c3e017cbcc0e527ada7eaf06b628ebb3290689b73b98b5c8979b8a944fddf301789f3c04ee9e18e02a6e8dc8c8cc8d90585d03a00ea2c8799e295df6dd58edeea89405a17bcdadbde37f16eda3e ()
+#52 0x00007ff65c472b6b in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+#53 0x00007ff65c47a86e in QCoreApplication::exec() () from /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/../shlib/qt/libQt5Core.so.5
+#54 0x000000001d4b9e0b in SNPSee_b81f4656f0d7d3ca1b0bca755b60caea2cb50375ef5e9df280c2a7ba1e2ca19f7750e3d580600edd04a01dc4363d697fcd6b18c4d0ab558c ()
+#55 0x000000003ce012bd in SNPSee_b3a63ca9beb66366a2beecdfa325f5f850e37c16b964335ba934f8a7afefeaf1 ()
+#56 0x000000000ef37d89 in SNPSee_6188b3f9a7e769c7eb2dc22ab181ff5c0260e7bf3c6e6c5b6dd310362dd3e58b19a33122e2a80c1014bca5a076370ba0686492d474ef148ca36ababef5945158a888f7e536545dec88d039942c447aad829ec3c9a13ccf1352c7f068f1dc0d713b949058f841385ce96831542394be36f2ec7e463409336ff9646fa385cc5a553529ff78d8277054cb68eca1e74b2650bc52a0a187546145fe12efa21abc06a8 ()
+#57 0x000000000ef39c62 in SNPSee_5a24f30b88271223 ()
+#58 0x00007ff6582d5555 in __libc_start_main () from /lib64/libc.so.6
+#59 0x000000000ef25029 in SNPSee_d06eed713327be76 ()
+(gdb) Detaching from program: /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/dgcom_exec, process 148082
+[Inferior 1 (process 148082) detached]
+(gdb) 

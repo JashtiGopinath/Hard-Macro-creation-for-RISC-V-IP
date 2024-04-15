@@ -1,0 +1,40 @@
+[123289:2024-04-06 17:23:46.790] Starting service 'mapper' (Node ID=0, Host Name=mavenserver-rh1)
+[123289:2024-04-06 17:23:46.805] <Redis> 123290:C 06 Apr 2024 17:23:46.805 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[123289:2024-04-06 17:23:46.805] <Redis> 123290:C 06 Apr 2024 17:23:46.805 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=123290, just started
+[123289:2024-04-06 17:23:46.805] <Redis> 123290:C 06 Apr 2024 17:23:46.805 # Configuration loaded
+[123289:2024-04-06 17:23:46.808] <Redis> 123290:M 06 Apr 2024 17:23:46.807 * Running mode=standalone, port=47830.
+[123289:2024-04-06 17:23:46.809] <Redis> 123290:M 06 Apr 2024 17:23:46.807 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+[123289:2024-04-06 17:23:46.809] <Redis> 123290:M 06 Apr 2024 17:23:46.807 # Server initialized
+[123289:2024-04-06 17:23:46.810] <Redis> 123290:M 06 Apr 2024 17:23:46.807 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[123289:2024-04-06 17:23:46.811] <Redis> 123290:M 06 Apr 2024 17:23:46.808 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo madvise > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled (set to 'madvise' or 'never').
+[123289:2024-04-06 17:23:46.811] <Redis> 123290:M 06 Apr 2024 17:23:46.810 * Ready to accept connections
+[123289:2024-04-06 17:23:46.811] Launched Redis process 123290 (Service Mapper) on address 127.0.0.1:47830. Attempting to connect...
+[123289:2024-04-06 17:23:46.812] Attempt #1 successfully connected to Redis at 127.0.0.1:47830
+[123289:2024-04-06 17:23:46.812] <Redis> 123290:M 06 Apr 2024 17:23:46.810 * The server is now ready to accept connections at /tmp/icv_F9W4oI/mapper
+[123289:2024-04-06 17:23:46.820] Wrote service info file to run_details/dp_work/service_info
+[123288:2024-04-06 17:23:56.822] [2024-04-06 17:23:46.830] Service 'launcher:0' registered on mavenserver-rh1:54363
+[123295:2024-04-06 17:23:56.822] [2024-04-06 17:23:46.844] Service 'license_manager' registered on mavenserver-rh1:32799
+[123298:2024-04-06 17:23:56.822] [2024-04-06 17:23:46.849] Service 'lock_manager' registered on mavenserver-rh1:46416
+[123296:2024-04-06 17:23:56.822] [2024-04-06 17:23:46.850] Service 'cluster' registered on mavenserver-rh1:55153
+[123297:2024-04-06 17:23:56.822] [2024-04-06 17:23:46.861] Service 'hdb' registered on mavenserver-rh1:59817
+[123305:2024-04-06 17:23:56.822] [2024-04-06 17:23:47.465] Service 'memory_manager' registered on mavenserver-rh1:63530
+[123306:2024-04-06 17:23:56.823] [2024-04-06 17:23:47.468] Service 'cleanup' registered on mavenserver-rh1:38371
+[123510:2024-04-06 17:24:06.825] [2024-04-06 17:23:58.807] Per-host service 'worker_pool:mavenserver-rh1' registered on mavenserver-rh1:57346
+[123510:2024-04-06 17:24:06.826] [2024-04-06 17:23:58.807] Per-host service 'host_stats:mavenserver-rh1' registered on mavenserver-rh1:45352
+[123301:2024-04-06 17:24:06.826] [2024-04-06 17:23:58.860] Service 'add_host' registered on mavenserver-rh1:64284
+[123305:2024-04-06 17:25:09.071] [2024-04-06 17:25:08.836] Removing service 'memory_manager'
+[123301:2024-04-06 17:25:09.071] [2024-04-06 17:25:08.856] Removing service 'add_host'
+[123288:2024-04-06 17:25:09.071] [2024-04-06 17:25:09.068] Removing service 'launcher:0'
+[123296:2024-04-06 17:25:09.071] [2024-04-06 17:25:09.068] Removing service 'cluster'
+[123297:2024-04-06 17:25:09.071] [2024-04-06 17:25:09.068] Removing service 'hdb'
+[123295:2024-04-06 17:25:09.071] [2024-04-06 17:25:09.068] Removing service 'license_manager'
+[123298:2024-04-06 17:25:09.071] [2024-04-06 17:25:09.068] Removing service 'lock_manager'
+[123510:2024-04-06 17:25:09.071] [2024-04-06 17:25:09.070] Removing service 'worker_pool:mavenserver-rh1'
+[123510:2024-04-06 17:25:09.071] [2024-04-06 17:25:09.070] Removing service 'host_stats:mavenserver-rh1'
+[123289:2024-04-06 17:25:09.072] Received signal 15 (Terminated). Exiting.
+[123289:2024-04-06 17:25:09.074] <Redis> 123290:M 06 Apr 2024 17:25:09.072 # User requested shutdown...
+[123289:2024-04-06 17:25:09.074] <Redis> 123290:M 06 Apr 2024 17:25:09.072 * Removing the unix socket file.
+[123289:2024-04-06 17:25:09.074] <Redis> 123290:M 06 Apr 2024 17:25:09.072 # Redis is now ready to exit, bye bye...
+[123289:2024-04-06 17:25:09.074] Pipe is closed from from Redis.
+[123289:2024-04-06 17:25:09.074] /tmp/icv_F9W4oI is removed
+[123289:2024-04-06 17:25:09.074] Service info file run_details/dp_work/service_info is removed.

@@ -1,0 +1,33 @@
+[123288:2024-04-06 17:23:46.777] Starting service 'launcher' (Node ID=0, Host Name=mavenserver-rh1)
+[123288:2024-04-06 17:23:46.779] Service Launcher starting
+[123288:2024-04-06 17:23:46.779] Starting service mapper
+[123288:2024-04-06 17:23:46.779] Started service mapper with PID 123289
+[123288:2024-04-06 17:23:46.779] Loading service mapper info
+[123288:2024-04-06 17:23:46.830] Starting services
+[123288:2024-04-06 17:23:46.831] Started service license_manager with PID 123295
+[123288:2024-04-06 17:23:46.831] Started service cluster with PID 123296
+[123288:2024-04-06 17:23:46.831] Started service hdb with PID 123297
+[123288:2024-04-06 17:23:46.832] Started service lock_manager with PID 123298
+[123288:2024-04-06 17:23:46.832] Started service log_manager with PID 123299
+[123288:2024-04-06 17:23:46.851] Service 'log_manager' with PID 123299 exited with exit status 33
+[123288:2024-04-06 17:25:09.067] Received signal 15. Shutting down.
+[123288:2024-04-06 17:25:09.068] Shutting down service 'cluster'
+[123288:2024-04-06 17:25:09.068]     Closing die FD
+[123288:2024-04-06 17:25:09.068] Shutting down service 'hdb'
+[123288:2024-04-06 17:25:09.068]     Closing die FD
+[123288:2024-04-06 17:25:09.068] Shutting down service 'license_manager'
+[123288:2024-04-06 17:25:09.068]     Closing die FD
+[123288:2024-04-06 17:25:09.068] Shutting down service 'lock_manager'
+[123288:2024-04-06 17:25:09.068]     Closing die FD
+[123288:2024-04-06 17:25:09.068] Waiting for service shutdown
+[123288:2024-04-06 17:25:09.069] Service 'cluster' with PID 123296 exited with exit status 0
+[123288:2024-04-06 17:25:09.070] Service 'license_manager' with PID 123295 exited with exit status 0
+[123288:2024-04-06 17:25:09.070] Service 'hdb' with PID 123297 exited with exit status 0
+[123288:2024-04-06 17:25:09.070] Service 'lock_manager' with PID 123298 exited with exit status 0
+[123288:2024-04-06 17:25:09.070] Waited 0 seconds on services to shutdown
+[123288:2024-04-06 17:25:09.070] Shutting down service 'mapper'
+[123288:2024-04-06 17:25:09.070]     Sending SIGTERM to PID 123289
+[123288:2024-04-06 17:25:09.070] Waiting for service shutdown
+[123288:2024-04-06 17:25:09.075] Service 'mapper' with PID 123289 exited with exit status 0
+[123288:2024-04-06 17:25:09.075] Waited 0 seconds on services to shutdown
+[123288:2024-04-06 17:25:09.075] Service Launcher exiting

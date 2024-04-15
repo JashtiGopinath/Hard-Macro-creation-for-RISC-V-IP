@@ -1,0 +1,84 @@
+################################################################################
+# Warning: this is an internal database file and is not intended for other usage
+################################################################################
+################################################################################
+#
+# Created by fc (U-2022.12-SP6) internalDesignWriter on Mon Mar 18 11:58:17 2024
+#
+################################################################################
+
+################################################################################
+#
+# Units
+# time_unit               : 1e-09
+# resistance_unit         : 1000000
+# capacitive_load_unit    : 1e-15
+# voltage_unit            : 1
+# current_unit            : 1e-06
+# power_unit              : 1e-12
+################################################################################
+
+# Implemented: supplies
+
+set_design_attributes -elements . -internal_attribute _mv_data_file_version 1
+## Start - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/check_lvs_done/design.upf on Mon Mar 18 11:49:07 2024
+
+## Start - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf on Mon Mar 18 11:37:27 2024
+
+## Start - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf on Fri Mar 15 00:55:55 2024
+
+## Start - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf on Thu Mar 14 23:32:03 2024
+
+## Start - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf on Thu Mar 14 21:56:38 2024
+
+## Start - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf on Thu Mar 14 21:13:29 2024
+
+## Start - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf on Thu Mar 14 12:05:31 2024
+
+## Start - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf on Thu Mar 14 10:42:31 2024
+
+## Start - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf on Thu Mar 14 09:09:03 2024
+
+## Start - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf on Mon Mar 11 22:34:51 2024
+
+## Start - load_upf ./design_data/risc.upf on Mon Mar 11 21:57:12 2024
+create_supply_net VDD
+create_supply_net VSS
+create_supply_set ss_main -function {power VDD} -function {ground VSS}
+create_power_domain PD_TOP -supply {primary ss_main}
+
+create_supply_port VDD -domain PD_TOP -direction in
+create_supply_port VSS -domain PD_TOP -direction in
+connect_supply_net VDD -ports VDD
+connect_supply_net VSS -ports VSS
+
+set_design_attributes -elements {.} -attribute correlated_supply_group {*}
+add_power_state -supply ss_main -state ON { -supply_expr {power == {FULL_ON 0.95 0.95 1.16} && ground == {FULL_ON 0.0}} }
+
+create_power_state_group PST
+add_power_state -group PST  \
+    -state RUN { -logic_expr {ss_main==ON} }
+## End - load_upf ./design_data/risc.upf
+## End - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf
+## End - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf
+## End - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf
+## End - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf
+## End - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf
+## End - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf
+## End - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf
+## End - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf
+## End - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/msrv32_top/design.upf
+## End - load_upf -noecho /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib/check_lvs_done/design.upf
+
+## Constraints below are generated by snps. Please do not modify.
+set derived_upf true
+
+if ($derived_upf) {
+
+set_design_attributes -elements . -internal_attribute _mv_data_status ready
+set_design_attributes -elements . -internal_attribute _ldi_supply_sets \
+    {ss_main} -internal_attribute _ldi_supply_nets {VDD VSS} \
+    -internal_attribute _ldi_domains {{PD_TOP+VDD+VSS}}
+
+}
+set derived_upf false

@@ -1,0 +1,424 @@
+#@ # 
+#@ # Running fc_shell Version U-2022.12-SP6 for linux64 -- Aug 25, 2023
+#@ # Date:   Sat Apr  6 17:05:44 2024
+#@ # Run by: JashtiG@mavenserver-RH1
+#@ 
+
+set_app_options -name signoff.check_drc.runset -value /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref
+open_lib risc_1.nlib/
+set_app_options -name signoff.check_drc.runset -value /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs
+start_gui
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+open_block /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib:msrv32_top.design
+win_set_filter -visible -class cell -filter {assembly_die_margin clock_margin hard_macro_margin hard_margin route_blockage_margin seal_ring_margin soft_margin}
+win_set_filter -visible -class pseudo_bump -filter {deleted}
+win_set_filter -visible -class pseudo_tsv -filter {deleted}
+win_set_filter -visible -class placement_blockage -filter {wiring} -layer {0-82}
+win_set_filter -expand_cell_types {soft_macro  }
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage block_shielding topology_node topology_edge topology_repeater annotation_shape core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_filter -class cell -filter {array assembly_die_margin clock_margin hard_macro_margin hard_margin route_blockage_margin seal_ring_margin soft_margin}
+win_set_filter -class pseudo_bump -filter {deleted}
+win_set_filter -class pseudo_tsv -filter {deleted}
+win_set_filter -class placement_blockage -filter {wiring} -layer {0-82}
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage topology_node topology_edge topology_repeater annotation_shape edit_group shape via placement_blockage }
+link_block
+set_app_options -name signoff.check_drc.runset -value /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/icv_runsets/saed32nm_1p9m_drc_rules.rs
+set_app_options -name signoff.check_drc.max_errors_per_rule -value 1000
+set_app_options -name signoff.check_drc.run_dir -value "icvDRC_run"
+setenv _ICV_RSH_COMMAND ssh
+signoff_check_drc
+set_app_options -list {signoff.fix_drc.init_drc_error_db "icvDRC_run"}
+signoff_fix_drc
+check_pg_drc
+set_app_options -name signoff.check_drc.max_errors_per_rule -value 10000
+set_app_options -name signoff.check_drc.run_dir -value "icvDRC_run"
+setenv _ICV_RSH_COMMAND ssh
+signoff_check_drc
+set_app_options -list {signoff.fix_drc.init_drc_error_db "icvDRC_run"}
+signoff_fix_drc
+set_app_options -list {signoff.fix_drc.init_drc_error_db "icvDRC_run1"}
+signoff_fix_drc
+set_app_options -list {signoff.fix_drc.init_drc_error_db "icvDRC_run"}
+signoff_fix_drc
+check_lvs
+gui_show_error_data
+gui_set_error_browser_option -show_mode all
+gui_set_error_browser_option -view_mode zoom
+gui_set_error_browser_option -zoom_factor 1.000000
+gui_set_error_browser_option -grouping layer
+gui_error_browser -show
+gui_open_error_data -name {msrv32_top_floatingPG.err}
+gui_set_current_errors -data_name {msrv32_top_floatingPG.err} -group {M1 (11)} -sub_group {Floating std cell pin violation}
+gui_error_browser -hide
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPin -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPin -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOHard -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOHard -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellCore -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellHardMacro -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSoftMacro -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSoftMacro -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellBlackBox -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSoftMacro -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCell -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCell -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellIO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellDie -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellInterposer -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSubstrate -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellCore -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellHardMacro -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSoftMacro -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellBlackBox -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellIO -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellDie -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellInterposer -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSubstrate -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showMargin -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPin -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPASiteArray -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPACore -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPlacementAttraction -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showVoltageArea -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showWiringGrid -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showOverlapBlockage -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRPGroup -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRPKeepout -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRouteCorridorShape -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showManufacturingShape -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showContactRegion -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRailAnalysisTap -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showTextObject -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCoreArea -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPort -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPortShape -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCell -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellCore -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellTSV -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellHardMacro -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSoftMacro -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellBlackBox -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellIO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellDie -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellInterposer -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellBridge -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSubstrate -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellThermal -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellPackage -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellPcb -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellFTV -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellFlipChip -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellNormalHier -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellPhysOnly -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSpare -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellCover -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showMargin -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showFillInst -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPin -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinCore -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinHardMacro -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinSoftMacro -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinBlackBox -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinPad -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinOthers -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinSignal -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinClock -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinReset -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinScan -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinTieHigh -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinTieLow -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinPower -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinGround -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinNWell -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinPWell -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPASiteArray -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPACore -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showMovebound -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPlacementAttraction -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showVoltageArea -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRoute -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRouted -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showContact -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showTopology -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showWiringGrid -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showBlockage -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOHard -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOSoft -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOPartial -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOHardMacro -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRoutingBlockage -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showShapingBlockage -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showOverlapBlockage -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinBlockage -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPowerplanRegion -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRPGroup -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRPKeepout -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showGuide -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRouteCorridorShape -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showManufacturingShape -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showBumpPlan -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showBumpRegion -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPseudoBump -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPseudoTSV -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showContactRegion -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showEditGroup -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRailAnalysisTap -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showTextObject -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showAnnotationObject -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRuler -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showText -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCoreArea -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPort -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPortShape -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCell -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellCore -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellTSV -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellHardMacro -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSoftMacro -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellBlackBox -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellIO -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellDie -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellInterposer -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellBridge -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSubstrate -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellThermal -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellPackage -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellPcb -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellFTV -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellFlipChip -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellNormalHier -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellPhysOnly -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSpare -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellCover -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showMargin -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showFillInst -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPin -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinCore -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinHardMacro -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinSoftMacro -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinBlackBox -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinPad -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinOthers -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinSignal -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinClock -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinReset -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinScan -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinTieHigh -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinTieLow -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinPower -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinGround -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinNWell -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinPWell -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPASiteArray -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPACore -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showMovebound -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPlacementAttraction -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showVoltageArea -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRoute -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRouted -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showContact -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showTopology -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showWiringGrid -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showBlockage -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKO -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOHard -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOSoft -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOPartial -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOHardMacro -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRoutingBlockage -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showShapingBlockage -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showOverlapBlockage -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinBlockage -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPowerplanRegion -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRPGroup -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRPKeepout -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showGuide -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRouteCorridorShape -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showManufacturingShape -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showBumpPlan -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showBumpRegion -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPseudoBump -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPseudoTSV -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showContactRegion -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showEditGroup -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRailAnalysisTap -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showTextObject -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showAnnotationObject -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRuler -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showText -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCoreArea -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPort -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPortShape -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCell -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellCore -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellTSV -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellHardMacro -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSoftMacro -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellBlackBox -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellIO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellDie -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellInterposer -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellBridge -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSubstrate -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellThermal -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellPackage -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellPcb -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellFTV -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellFlipChip -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellNormalHier -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellPhysOnly -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSpare -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellCover -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showMargin -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showFillInst -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPin -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinCore -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinHardMacro -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinSoftMacro -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinBlackBox -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinPad -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinOthers -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinSignal -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinClock -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinReset -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinScan -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinTieHigh -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinTieLow -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinPower -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinGround -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinNWell -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinPWell -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPASiteArray -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPACore -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showMovebound -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPlacementAttraction -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showVoltageArea -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRoute -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRouted -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showContact -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showTopology -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showWiringGrid -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showBlockage -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKO -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOHard -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOSoft -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOPartial -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOHardMacro -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRoutingBlockage -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showShapingBlockage -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showOverlapBlockage -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinBlockage -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPowerplanRegion -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRPGroup -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRPKeepout -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showGuide -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRouteCorridorShape -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showManufacturingShape -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showBumpPlan -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showBumpRegion -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPseudoBump -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPseudoTSV -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showContactRegion -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showEditGroup -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRailAnalysisTap -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showTextObject -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showAnnotationObject -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRuler -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showText -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCoreArea -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPort -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPortShape -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCell -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellCore -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellTSV -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellHardMacro -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSoftMacro -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellBlackBox -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellIO -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellDie -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellInterposer -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellBridge -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSubstrate -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellThermal -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellPackage -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellPcb -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellFTV -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellFlipChip -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellNormalHier -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellPhysOnly -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellSpare -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCellCover -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showMargin -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showFillInst -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPin -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinCore -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinHardMacro -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinSoftMacro -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinBlackBox -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinPad -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinOthers -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinSignal -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinClock -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinReset -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinScan -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinTieHigh -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinTieLow -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinPower -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinGround -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinNWell -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinPWell -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPASiteArray -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPACore -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showMovebound -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPlacementAttraction -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showVoltageArea -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRoute -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRouted -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showContact -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showTopology -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showWiringGrid -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showBlockage -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKO -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOHard -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOSoft -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOPartial -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPAKOHardMacro -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRoutingBlockage -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showShapingBlockage -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showOverlapBlockage -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPinBlockage -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPowerplanRegion -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRPGroup -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRPKeepout -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showGuide -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRouteCorridorShape -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showManufacturingShape -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showBumpPlan -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showBumpRegion -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPseudoBump -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPseudoTSV -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showContactRegion -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showEditGroup -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRailAnalysisTap -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showTextObject -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showAnnotationObject -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showRuler -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showText -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCoreArea -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showCoreArea -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPort -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPort -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPortShape -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showPortShape -value true
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showFillInst -value false
+gui_set_setting -window [gui_get_current_window -types Layout -mru] -setting showFillInst -value true
+win_set_filter -visible -class cell -filter {}
+win_set_filter -visible -class voltage_area -filter {guardband}
+win_set_filter -visible -class site_row -filter {io}
+win_set_filter -visible -class trackdef -filter {non_preferred} -layer {}
+win_set_select_class -visible {cell pin port bound rp_group rp_blockage tap routing_blockage shaping_blockage overlap_blockage pg_region manufacturing_shape bump_region pseudo_bump pseudo_tsv pin_blockage routing_corridor_shape block_shielding placement_attraction voltage_area topology_node topology_edge topology_repeater annotation_shape core_area die_area site_row site_array text edit_group shape via via_region terminal fill_cell trackdef placement_blockage }
+win_set_filter -class voltage_area -filter {guardband}
+win_set_select_class {cell pin port bound rp_blockage tap routing_blockage shaping_blockage overlap_blockage pg_region manufacturing_shape bump_region pseudo_bump pseudo_tsv pin_blockage routing_corridor_shape placement_attraction voltage_area topology_node topology_edge topology_repeater annotation_shape edit_group shape via via_region placement_blockage }
+route_opt
+check_lvs

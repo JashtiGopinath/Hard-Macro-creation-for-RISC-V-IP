@@ -1,0 +1,294 @@
+* Description of frequently used terms in hierarchy_analysis files*
+M indicates that the value of that column is in millions
+Hier Plc Count(Hierarchical Placement Count) : Number of unique instances of the cell in another cell (Parent)
+Flat Plc Count(Flat Placement Count)         : Total number of instances of the cell in the layout
+
+Example : 
+                               A                     
+                              / \                   Cell  Hier Plc Count Flat Plc Count 
+                             /   \                     A               1              1 
+                            B     B                    B               2              2 
+                           / \  /  \                   C               2              4 
+                          C   C C   C                
+------------------------------------------------------------------------------------------------------ 
+
+
+* Cells with flat area > 0.01 of top cell *
+Reports cells with flat area > 0.01 of top cell
+
+Flat A(Flat Area) : Total area covered by this cell in the layout(cell area * flat placement count)
+Cell A(Cell Area) : Area of this cell
+Percent of top    : Percentage of area of this cell w.r.t area of top cell
+This table contains a single entry
+
+ Name                                          | Flat A (mm^2), Cell A (mm^2), Flat Plc Count, Hier Plc Count, Percent of top
+-----------------------------------------------
+ msrv32_top                                    |         0.053,         0.053,              1,              1,       100.00 %
+===============================================
+
+* Large-Area cells and child area ratio *
+This table reports cells with large areas and ratio of its area with total area covered by its children
+
+Num Inst(Number of instances) : Total Number of instances of the cell
+Child A(Child Area)           : Total area covered by all the children of the cell
+Pct of parent(Percent of area): Percentage of total area covered by its childern w.r.t area of this cell
+This table contains a single entry
+
+ Name                                          | Flat A (mm^2), Cell A (mm^2), Num Inst (M), Child A (mm^2), Pct of parent
+-----------------------------------------------
+ msrv32_top                                    |         0.053,         0.053,        0.000,         0.000,        0.00 %
+===============================================
+
+* Exploded Cell Information *
+Displays information of exploded cells
+
+Parent cell           : Name of the parent cell the cell has exploded into
+Exploded Inst Count   : Total number of instances of the cell that has expldoed to the parent cell
+Parent Flat Plc Count : Parent cell flat placement count
+Parent Hier Plc Count : Parent cell hierarchical placement count
+This table contains 179 entries
+Original table contains 179 entries
+
+ Exploded Cell                                 | Parent Cell                                   | Exploded Inst Count, Parent Flat Plc Count, Parent Hier Plc Count
+----------------------------------------------- -----------------------------------------------
+ SDFFASRSX1_HVT                                | msrv32_top                                    |                1098,                     1,                     1
+ AO221X1_HVT                                   | msrv32_top                                    |                 426,                     1,                     1
+ AO22X1_HVT                                    | msrv32_top                                    |                 253,                     1,                     1
+ AO222X1_HVT                                   | msrv32_top                                    |                 211,                     1,                     1
+ AO221X1_RVT                                   | msrv32_top                                    |                 155,                     1,                     1
+ NBUFFX2_HVT                                   | msrv32_top                                    |                 145,                     1,                     1
+ SDFFSSRX1_RVT                                 | msrv32_top                                    |                 145,                     1,                     1
+ NAND2X0_HVT                                   | msrv32_top                                    |                 140,                     1,                     1
+ INVX0_HVT                                     | msrv32_top                                    |                 126,                     1,                     1
+ SDFFSSRX2_HVT                                 | msrv32_top                                    |                 126,                     1,                     1
+ TIEL_HVT                                      | msrv32_top                                    |                 120,                     1,                     1
+ NBUFFX4_HVT                                   | msrv32_top                                    |                 113,                     1,                     1
+ AND2X1_HVT                                    | msrv32_top                                    |                 112,                     1,                     1
+ NBUFFX8_HVT                                   | msrv32_top                                    |                 108,                     1,                     1
+ AO21X1_HVT                                    | msrv32_top                                    |                  93,                     1,                     1
+ AO222X1_RVT                                   | msrv32_top                                    |                  74,                     1,                     1
+ OR2X1_HVT                                     | msrv32_top                                    |                  72,                     1,                     1
+ TIEH_HVT                                      | msrv32_top                                    |                  69,                     1,                     1
+ AO221X2_RVT                                   | msrv32_top                                    |                  67,                     1,                     1
+ AO22X1_RVT                                    | msrv32_top                                    |                  61,                     1,                     1
+ AND3X1_HVT                                    | msrv32_top                                    |                  59,                     1,                     1
+ AO22X2_HVT                                    | msrv32_top                                    |                  56,                     1,                     1
+ OR3X1_HVT                                     | msrv32_top                                    |                  48,                     1,                     1
+ AND2X2_HVT                                    | msrv32_top                                    |                  42,                     1,                     1
+ CGLPPRX2_HVT                                  | msrv32_top                                    |                  38,                     1,                     1
+ AO221X2_HVT                                   | msrv32_top                                    |                  35,                     1,                     1
+ AND2X1_RVT                                    | msrv32_top                                    |                  34,                     1,                     1
+ OA221X1_HVT                                   | msrv32_top                                    |                  34,                     1,                     1
+ OR3X1_RVT                                     | msrv32_top                                    |                  33,                     1,                     1
+ SDFFSSRX2_RVT                                 | msrv32_top                                    |                  31,                     1,                     1
+ OR3X2_HVT                                     | msrv32_top                                    |                  28,                     1,                     1
+ XNOR2X2_HVT                                   | msrv32_top                                    |                  24,                     1,                     1
+ INVX8_HVT                                     | msrv32_top                                    |                  23,                     1,                     1
+ HADDX1_RVT                                    | msrv32_top                                    |                  22,                     1,                     1
+ AND2X4_HVT                                    | msrv32_top                                    |                  21,                     1,                     1
+ AO22X2_RVT                                    | msrv32_top                                    |                  20,                     1,                     1
+ MUX21X1_HVT                                   | msrv32_top                                    |                  20,                     1,                     1
+ NAND2X0_RVT                                   | msrv32_top                                    |                  18,                     1,                     1
+ AND2X2_RVT                                    | msrv32_top                                    |                  17,                     1,                     1
+ AND4X1_LVT                                    | msrv32_top                                    |                  17,                     1,                     1
+ OR3X1_LVT                                     | msrv32_top                                    |                  17,                     1,                     1
+ XNOR2X1_HVT                                   | msrv32_top                                    |                  16,                     1,                     1
+ AND4X1_RVT                                    | msrv32_top                                    |                  14,                     1,                     1
+ NBUFFX4_RVT                                   | msrv32_top                                    |                  14,                     1,                     1
+ NBUFFX2_RVT                                   | msrv32_top                                    |                  13,                     1,                     1
+ AND2X4_RVT                                    | msrv32_top                                    |                  12,                     1,                     1
+ AND4X1_HVT                                    | msrv32_top                                    |                  12,                     1,                     1
+ AO21X1_RVT                                    | msrv32_top                                    |                  12,                     1,                     1
+ AOI22X1_HVT                                   | msrv32_top                                    |                  12,                     1,                     1
+ INVX1_RVT                                     | msrv32_top                                    |                  12,                     1,                     1
+ NAND2X0_LVT                                   | msrv32_top                                    |                  12,                     1,                     1
+ NAND3X0_HVT                                   | msrv32_top                                    |                  12,                     1,                     1
+ AND3X2_HVT                                    | msrv32_top                                    |                  11,                     1,                     1
+ AO21X1_LVT                                    | msrv32_top                                    |                  11,                     1,                     1
+ INVX8_RVT                                     | msrv32_top                                    |                  11,                     1,                     1
+ NBUFFX8_RVT                                   | msrv32_top                                    |                  11,                     1,                     1
+ NAND3X0_RVT                                   | msrv32_top                                    |                  10,                     1,                     1
+ AND2X1_LVT                                    | msrv32_top                                    |                   9,                     1,                     1
+ AO22X1_LVT                                    | msrv32_top                                    |                   9,                     1,                     1
+ NBUFFX16_HVT                                  | msrv32_top                                    |                   8,                     1,                     1
+ OA221X2_HVT                                   | msrv32_top                                    |                   8,                     1,                     1
+ OR3X2_RVT                                     | msrv32_top                                    |                   8,                     1,                     1
+ AO222X1_LVT                                   | msrv32_top                                    |                   7,                     1,                     1
+ INVX2_HVT                                     | msrv32_top                                    |                   7,                     1,                     1
+ NAND3X0_LVT                                   | msrv32_top                                    |                   7,                     1,                     1
+ NAND3X1_HVT                                   | msrv32_top                                    |                   7,                     1,                     1
+ NOR4X1_HVT                                    | msrv32_top                                    |                   7,                     1,                     1
+ OA21X1_RVT                                    | msrv32_top                                    |                   7,                     1,                     1
+ SDFFASRSX2_HVT                                | msrv32_top                                    |                   7,                     1,                     1
+ AO22X2_LVT                                    | msrv32_top                                    |                   6,                     1,                     1
+ INVX0_LVT                                     | msrv32_top                                    |                   6,                     1,                     1
+ NAND4X1_HVT                                   | msrv32_top                                    |                   6,                     1,                     1
+ NAND3X2_HVT                                   | msrv32_top                                    |                   5,                     1,                     1
+ NOR2X0_RVT                                    | msrv32_top                                    |                   5,                     1,                     1
+ OA21X1_HVT                                    | msrv32_top                                    |                   5,                     1,                     1
+ OA22X1_HVT                                    | msrv32_top                                    |                   5,                     1,                     1
+ OR2X2_HVT                                     | msrv32_top                                    |                   5,                     1,                     1
+ AO21X2_HVT                                    | msrv32_top                                    |                   4,                     1,                     1
+ AO221X1_LVT                                   | msrv32_top                                    |                   4,                     1,                     1
+ AOI221X1_HVT                                  | msrv32_top                                    |                   4,                     1,                     1
+ AOI22X1_RVT                                   | msrv32_top                                    |                   4,                     1,                     1
+ INVX0_RVT                                     | msrv32_top                                    |                   4,                     1,                     1
+ INVX1_HVT                                     | msrv32_top                                    |                   4,                     1,                     1
+ INVX1_LVT                                     | msrv32_top                                    |                   4,                     1,                     1
+ NAND2X4_HVT                                   | msrv32_top                                    |                   4,                     1,                     1
+ OA22X1_RVT                                    | msrv32_top                                    |                   4,                     1,                     1
+ OAI21X1_LVT                                   | msrv32_top                                    |                   4,                     1,                     1
+ SDFFSSRX2_LVT                                 | msrv32_top                                    |                   4,                     1,                     1
+ AND2X4_LVT                                    | msrv32_top                                    |                   3,                     1,                     1
+ AND3X4_HVT                                    | msrv32_top                                    |                   3,                     1,                     1
+ AO222X2_HVT                                   | msrv32_top                                    |                   3,                     1,                     1
+ HADDX2_RVT                                    | msrv32_top                                    |                   3,                     1,                     1
+ INVX16_HVT                                    | msrv32_top                                    |                   3,                     1,                     1
+ INVX2_RVT                                     | msrv32_top                                    |                   3,                     1,                     1
+ INVX4_HVT                                     | msrv32_top                                    |                   3,                     1,                     1
+ NAND4X0_RVT                                   | msrv32_top                                    |                   3,                     1,                     1
+ NBUFFX16_RVT                                  | msrv32_top                                    |                   3,                     1,                     1
+ OA21X2_HVT                                    | msrv32_top                                    |                   3,                     1,                     1
+ OA221X1_RVT                                   | msrv32_top                                    |                   3,                     1,                     1
+ OA222X1_HVT                                   | msrv32_top                                    |                   3,                     1,                     1
+ OA222X1_LVT                                   | msrv32_top                                    |                   3,                     1,                     1
+ OAI22X1_HVT                                   | msrv32_top                                    |                   3,                     1,                     1
+ OR2X1_LVT                                     | msrv32_top                                    |                   3,                     1,                     1
+ OR3X2_LVT                                     | msrv32_top                                    |                   3,                     1,                     1
+ SDFFASRSX1_RVT                                | msrv32_top                                    |                   3,                     1,                     1
+ AND2X2_LVT                                    | msrv32_top                                    |                   2,                     1,                     1
+ AND3X1_LVT                                    | msrv32_top                                    |                   2,                     1,                     1
+ AND3X1_RVT                                    | msrv32_top                                    |                   2,                     1,                     1
+ AO221X2_LVT                                   | msrv32_top                                    |                   2,                     1,                     1
+ AO222X2_RVT                                   | msrv32_top                                    |                   2,                     1,                     1
+ AOI21X1_HVT                                   | msrv32_top                                    |                   2,                     1,                     1
+ AOI222X1_RVT                                  | msrv32_top                                    |                   2,                     1,                     1
+ AOI22X2_HVT                                   | msrv32_top                                    |                   2,                     1,                     1
+ FADDX1_HVT                                    | msrv32_top                                    |                   2,                     1,                     1
+ IBUFFX8_LVT                                   | msrv32_top                                    |                   2,                     1,                     1
+ INVX4_RVT                                     | msrv32_top                                    |                   2,                     1,                     1
+ NAND2X2_LVT                                   | msrv32_top                                    |                   2,                     1,                     1
+ NAND2X4_RVT                                   | msrv32_top                                    |                   2,                     1,                     1
+ NAND3X2_RVT                                   | msrv32_top                                    |                   2,                     1,                     1
+ NAND4X0_HVT                                   | msrv32_top                                    |                   2,                     1,                     1
+ NBUFFX4_LVT                                   | msrv32_top                                    |                   2,                     1,                     1
+ NBUFFX8_LVT                                   | msrv32_top                                    |                   2,                     1,                     1
+ NOR2X0_HVT                                    | msrv32_top                                    |                   2,                     1,                     1
+ NOR2X1_HVT                                    | msrv32_top                                    |                   2,                     1,                     1
+ NOR3X0_RVT                                    | msrv32_top                                    |                   2,                     1,                     1
+ OA21X1_LVT                                    | msrv32_top                                    |                   2,                     1,                     1
+ OA222X1_RVT                                   | msrv32_top                                    |                   2,                     1,                     1
+ OR2X2_RVT                                     | msrv32_top                                    |                   2,                     1,                     1
+ XNOR2X1_RVT                                   | msrv32_top                                    |                   2,                     1,                     1
+ AND3X2_RVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ AND3X4_LVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ AND4X2_HVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ AND4X2_RVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ AO21X2_RVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ AOI21X1_LVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ AOI21X1_RVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ AOI21X2_HVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ AOI21X2_RVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ AOI222X1_HVT                                  | msrv32_top                                    |                   1,                     1,                     1
+ AOI222X1_LVT                                  | msrv32_top                                    |                   1,                     1,                     1
+ AOI22X1_LVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ AOI22X2_LVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ DELLN1X2_HVT                                  | msrv32_top                                    |                   1,                     1,                     1
+ FADDX2_HVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ HADDX2_LVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ IBUFFX2_HVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ INVX2_LVT                                     | msrv32_top                                    |                   1,                     1,                     1
+ MUX21X2_HVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ NAND2X1_HVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ NAND2X2_HVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ NAND2X2_RVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ NAND3X1_RVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ NAND4X1_RVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ NBUFFX32_HVT                                  | msrv32_top                                    |                   1,                     1,                     1
+ NOR2X0_LVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ NOR2X2_HVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ NOR2X4_HVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ NOR3X0_HVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ NOR3X1_HVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ NOR3X1_RVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ NOR3X2_RVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ NOR4X1_LVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ OA222X2_HVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ OA22X1_LVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ OAI21X1_HVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ OAI21X1_RVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ OAI222X1_HVT                                  | msrv32_top                                    |                   1,                     1,                     1
+ OR2X1_RVT                                     | msrv32_top                                    |                   1,                     1,                     1
+ OR2X4_LVT                                     | msrv32_top                                    |                   1,                     1,                     1
+ OR3X4_HVT                                     | msrv32_top                                    |                   1,                     1,                     1
+ OR3X4_LVT                                     | msrv32_top                                    |                   1,                     1,                     1
+ OR4X1_HVT                                     | msrv32_top                                    |                   1,                     1,                     1
+ SDFFASRSX2_RVT                                | msrv32_top                                    |                   1,                     1,                     1
+ XNOR2X2_RVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ XNOR3X2_LVT                                   | msrv32_top                                    |                   1,                     1,                     1
+ XOR2X1_HVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ XOR2X2_HVT                                    | msrv32_top                                    |                   1,                     1,                     1
+ machine_counter                               | msrv32_top                                    |                   1,                     1,                     1
+ msrv32_alu                                    | msrv32_top                                    |                   1,                     1,                     1
+=============================================== ===============================================
+
+* Region Report *
+Reports information about different regions present in the layout
+Area      : Total area of the cell
+Num Reg   : Number of regions
+MaxR MinR : Area of maximum and minimum region
+Est Trap  : Average number of trapezoids present in a single region
+Est Plc   : Average number of instances present in a single region 
+Large inst wrt Region: Number of instances with area larger than Max Region Area
+Min/Avg/Max ratio : Minimum, average and maximum ratio of child cell area to Max Region Area for large instances
+This table contains a single entry
+
+ Name                                          | Area (mm^2), Num Reg, MaxR (mm^2), MinR (mm^2), Est Trap (M), Est Plc (M), Large inst wrt Region: Num, Min ratio, Avg ratio, Max ratio
+-----------------------------------------------
+ msrv32_top                                    |       0.053,       3,       0.018,       0.018,        0.571,       0.000,                          0,      0.00,      0.00,      0.00
+===============================================
+
+* Layer Report with Estimated Data *
+Reports information of layers present in the layout
+
+Trap        : Number of hierarchical trapezoids in the layer
+Poly        : Number of hierarchical polygons in the layer
+Text        : Number of hierarchical text primitives in the layer
+Flat Trap   : Number of flat trapezoids 
+Flat Poly   : Number of flat polygons
+Flat Text   : Number of flat text primitives 
+Trap F/H    : Ratio of flat and hierarchical placements of the trapezoids
+Base, Metal, Via, Fill, Colored : Indicates layer intent
+This table contains 26 entries
+Original table contains 26 entries
+
+ Name                                          | Trap (M), Poly (M), Text (M), Flat Trap (M), Flat Poly (M), Flat Text (M), Trap F/H, Base, Metal, Via, Fill, Colored
+-----------------------------------------------
+ COi                                           |    0.618,    0.618,    0.000,         0.618,         0.618,         0.000,     1.00,    0,     0,   0,    0,       0
+ M1i                                           |    0.460,    0.112,    0.000,         0.460,         0.112,         0.000,     1.00,    0,     0,   0,    0,       0
+ POi                                           |    0.106,    0.106,    0.000,         0.106,         0.106,         0.000,     1.00,    0,     0,   0,    0,       0
+ M2i                                           |    0.105,    0.105,    0.000,         0.105,         0.105,         0.000,     1.00,    0,     0,   0,    0,       0
+ M3i                                           |    0.066,    0.065,    0.000,         0.066,         0.065,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA2i                                         |    0.057,    0.057,    0.000,         0.057,         0.057,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA1i                                         |    0.054,    0.054,    0.000,         0.054,         0.054,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA8i                                         |    0.037,    0.037,    0.000,         0.037,         0.037,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA3i                                         |    0.033,    0.033,    0.000,         0.033,         0.033,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA4i                                         |    0.030,    0.030,    0.000,         0.030,         0.030,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA5i                                         |    0.028,    0.028,    0.000,         0.028,         0.028,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA6i                                         |    0.028,    0.028,    0.000,         0.028,         0.028,         0.000,     1.00,    0,     0,   0,    0,       0
+ VIA7i                                         |    0.028,    0.028,    0.000,         0.028,         0.028,         0.000,     1.00,    0,     0,   0,    0,       0
+ M4i                                           |    0.020,    0.019,    0.000,         0.020,         0.019,         0.000,     1.00,    0,     0,   0,    0,       0
+ M5i                                           |    0.012,    0.012,    0.000,         0.012,         0.012,         0.000,     1.00,    0,     0,   0,    0,       0
+ M6i                                           |    0.009,    0.009,    0.000,         0.009,         0.009,         0.000,     1.00,    0,     0,   0,    0,       0
+ M7i                                           |    0.008,    0.008,    0.000,         0.008,         0.008,         0.000,     1.00,    0,     0,   0,    0,       0
+ NWELLi                                        |    0.008,    0.005,    0.000,         0.008,         0.005,         0.000,     1.00,    0,     0,   0,    0,       0
+ M8i                                           |    0.005,    0.005,    0.000,         0.005,         0.005,         0.000,     1.00,    0,     0,   0,    0,       0
+ M9i                                           |    0.001,    0.001,    0.000,         0.001,         0.001,         0.000,     1.00,    0,     0,   0,    0,       0
+ M3i_text                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ M4i_text                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ M5i_text                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ M6i_text                                      |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+ MRDLi                                         |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     1.00,    0,     0,   0,    0,       0
+ DNWi                                          |    0.000,    0.000,    0.000,         0.000,         0.000,         0.000,     0.00,    0,     0,   0,    0,       0
+===============================================
+

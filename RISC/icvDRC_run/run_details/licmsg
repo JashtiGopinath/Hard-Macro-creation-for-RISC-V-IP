@@ -1,0 +1,27 @@
+04/06/2024 17:23:46 (icv) Updating license package priority based on cached license status
+  Previous value: ICValidator-Base,ICValidator-Elite,ICValidator-Apex
+  New value:      ICValidator-Elite,ICValidator-Apex,ICValidator-Base
+04/06/2024 17:23:46 (icv) Licensing related environment variables:
+
+  SNPSLMD_LICENSE_FILE = "27020@mavenserver-rh1:27021@mavenserver-RH2"
+
+04/06/2024 17:23:46 License manager initialized. (Time=0:00:00)
+04/06/2024 17:23:46 Using license file: 27020@mavenserver-rh1
+04/06/2024 17:23:46 Using license file: 27021@mavenserver-RH2
+04/06/2024 17:23:46 (icv) Pre-Checking (ICValidator2-GeometryEngine/2022.12)
+04/06/2024 17:23:46 (icv)   ICValidator2-GeometryEngine license is installed. (Time=0:00:00)
+04/06/2024 17:23:58 Requesting (ICValidator-Manager/2022.12)
+04/06/2024 17:23:58   27020@mavenserver-rh1: ICValidator-Manager license obtained. (Time=0:00:00)
+04/06/2024 17:23:58 
+04/06/2024 17:23:58 Obtained 1 total ICValidator-Manager license.
+04/06/2024 17:23:58 This will allow up to 4 engine processes to run.
+
+04/06/2024 17:23:58 (pydb_server) ICValidator2-GeometryEngine license is available.  (Cached)
+04/06/2024 17:23:59 (icv_engine 1) Requesting (ICValidator2-GeometryEngine/2022.12)
+04/06/2024 17:23:59 (icv_engine 1)   27020@mavenserver-rh1: ICValidator2-GeometryEngine license obtained. (Time=0:00:00)
+04/06/2024 17:23:59 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+04/06/2024 17:24:00 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+04/06/2024 17:24:03 (icv_engine 1) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+04/06/2024 17:24:20 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2022.12)
+04/06/2024 17:25:08 Releasing all licenses
+04/06/2024 17:25:09 License manager shutting down. (Time=0:00:00)

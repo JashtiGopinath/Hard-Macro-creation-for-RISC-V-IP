@@ -1,0 +1,41 @@
+ 
+                              Fusion Compiler (TM)
+
+             Version U-2022.12-SP6 for linux64 - Aug 25, 2023 -SLE
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Loading user preference file /home/WBPD04/JashtiG/.synopsys_fc_gui/preferences.tcl
+fc_shell> open_block -ref_libs_for_edit /home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/ALU/alu1.nlib:msrv32_alu.design
+Warning: Block 'msrv32_alu' can only be opened as read-only because it is part of an editable abstract 'alu1.nlib:msrv32_alu'. (NDM-074)
+Information: User units loaded from library 'saed32_hvt|saed32_hvt_std' (LNK-040)
+Information: Abstract view of design msrv32_alu is not changed since its creation. No merge needed. (ABS-279)
+Opening block 'alu1.nlib:msrv32_alu.design' in edit mode
+fc_shell> link_block
+Using libraries: alu1.nlib saed32_hvt saed32_lvt saed32_rvt
+Visiting block alu1.nlib:msrv32_alu.design
+Warning: No valid clocks available in mode 'func'. Setting clock frequency to 1 GHz. (POW-034)
+Warning: No valid clocks available in mode 'test'. Setting clock frequency to 1 GHz. (POW-034)
+Design 'msrv32_alu' was successfully linked.
+1
+fc_shell> exit
+Maximum memory usage for this session: 550.68 MB
+Maximum memory usage for this session including child processes: 550.68 MB
+CPU usage for this session:     28 seconds (  0.01 hours)
+Elapsed time for this session:    115 seconds (  0.03 hours)
+Thank you for using Fusion Compiler.
+

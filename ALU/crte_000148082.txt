@@ -1,0 +1,557 @@
+CRTE_SNAPSHOT_START
+
+SECTION_CRTE_VERSION
+3.0
+
+SECTION_PID
+148082
+
+SECTION_POLLING_INTERVAL
+5
+
+SECTION_DATE_TIME
+Tue Feb 27 20:05:23 IST 2024 (1709044523)
+
+SECTION_OS_VERSION
+osname: Linux
+hostname: mavenserver-RH1
+arch: x86_64
+release_version: 3.10.0-1160.108.1.el7.x86_64
+
+SECTION_IPC_INFO
+
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages    
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x00000000 158892032  HarsHiniJ  777        4816896    2          dest         
+0x00000000 2          gdm        777        16384      1          dest         
+0x00000000 158924804  PandrinkiD 600        524288     2          dest         
+0x00000000 5          gdm        777        3145728    2          dest         
+0x00000000 155910150  Harini_MTS 600        1248000    0                       
+0x00000000 145195017  Bindhu_TSE 600        1248000    0                       
+0x00000000 159285258  JashtiG    600        16777216   2          dest         
+0x00000000 158924811  PandrinkiD 600        16777216   2          dest         
+0x00000000 158728204  PMSushmita 600        393216     2          dest         
+0x00000000 158924813  PandrinkiD 777        6684672    2        SECTION_ULIMIT
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 1028517
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 32768
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+SECTION_SYSCONF
+_SC_THREAD_SAFE_FUNCTIONS= 200809
+_SC_CLK_TCK= 100
+_SC_OPEN_MAX= 32768
+_SC_PAGE_SIZE= 4096
+_SC_ARG_MAX= 2097152
+_SC_CHILD_MAX= 4096
+_SC_LINE_MAX= 2048
+
+SECTION_FULL_COMMAND
+/home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6/linux64/nwtn/bin/dgcom_exec -shell fc -root_path /home/cad/eda/SYNOPSYS/Fusion_Compiler_2022-SP2/fusioncompiler/U-2022.12-SP6 -gui
+
+SECTION_CPUINFO
+total_core: 32
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2033
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2095
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2098
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2099
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2099
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2081
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2099
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2073
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2043
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2059
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2099
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2020
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2094
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2081
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2099
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2099
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 1937
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2014
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2099
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2099
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2099
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 1826
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2099
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 1827
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2082
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 1838
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2099
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2100
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 1900
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2080
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 1820
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+model_name:  Intel(R) Xeon(R) Silver 4108 CPU @ 1.80GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin ssbd mba rsb_ctxsw ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 1806
+core_per_socket: 0
+stepping: 4
+cache_size_kb: 11264
+ht: 0
+
+SECTION_OS_RELEASE_VERSION
+Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+
+SECTION_SYS/VM
+/proc/sys/vm/admin_reserve_kbytes:8192
+/proc/sys/vm/block_dump:0
+/proc/sys/vm/dirty_background_bytes:0
+/proc/sys/vm/dirty_background_ratio:10
+/proc/sys/vm/dirty_bytes:0
+/proc/sys/vm/dirty_expire_centisecs:3000
+/proc/sys/vm/dirty_ratio:40
+/proc/sys/vm/dirty_writeback_centisecs:500
+/proc/sys/vm/drop_caches:1
+/proc/sys/vm/extfrag_threshold:500
+/proc/sys/vm/hugepages_treat_as_movable:0
+/proc/sys/vm/hugetlb_shm_group:0
+/proc/sys/vm/laptop_mode:0
+/proc/sys/vm/legacy_va_layout:0
+/proc/sys/vm/lowmem_reserve_ratio:256	256	32
+/proc/sys/vm/max_map_count:65530
+/proc/sys/vm/memory_failure_early_kill:0
+/proc/sys/vm/memory_failure_recovery:1
+/proc/sys/vm/min_free_kbytes:90112
+/proc/sys/vm/min_slab_ratio:5
+/proc/sys/vm/min_unmapped_ratio:1
+/proc/sys/vm/mmap_min_addr:4096
+/proc/sys/vm/nr_hugepages:0
+/proc/sys/vm/nr_hugepages_mempolicy:0
+/proc/sys/vm/nr_overcommit_hugepages:0
+/proc/sys/vm/nr_pdflush_threads:0
+/proc/sys/vm/numa_zonelist_order:default
+/proc/sys/vm/oom_dump_tasks:1
+/proc/sys/vm/oom_kill_allocating_task:0
+/proc/sys/vm/overcommit_kbytes:0
+/proc/sys/vm/overcommit_memory:0
+/proc/sys/vm/overcommit_ratio:50
+/proc/sys/vm/page-cluster:3
+/proc/sys/vm/panic_on_oom:0
+/proc/sys/vm/percpu_pagelist_fraction:0
+/proc/sys/vm/stat_interval:1
+/proc/sys/vm/swappiness:10
+/proc/sys/vm/user_reserve_kbytes:131072
+/proc/sys/vm/vfs_cache_pressure:100
+/proc/sys/vm/zone_reclaim_mode:0
+
+
+SECTION_SWAP
+swap_partition: /dev/dm-1
+size_gb: 31
+
+CRTE_SNAPSHOT_END
+
+CRTE_PERIODIC_START 1 1709044523303
+
+SECTION_MPSTAT
+total_core: 32
+
+CPU     %user   %kernel %wait   %idle   
+all   15.705466 9.768186 0.229867 74.296478
+0     42.464516 21.341740 0.265021 35.928722
+1     29.362801 29.321373 0.167374 41.148453
+2     6.717508 3.894418 0.437008 88.951065
+3     27.005959 27.116192 0.231211 45.646637
+4     15.948806 8.488317 0.439989 75.122887
+5     17.989080 14.391109 0.291809 67.327995
+6     15.014753 8.069468 0.445107 76.470673
+7     15.672579 11.614848 0.325247 72.387329
+8     16.757988 8.503279 0.444143 74.294594
+9     14.790657 11.069026 0.341155 73.799164
+10     17.329550 8.996315 0.435615 73.238518
+11     14.375751 11.253878 0.326745 74.043625
+12     18.930275 9.325258 0.425893 71.318573
+13     15.177756 11.547070 0.319191 72.955986
+14     16.979122 8.330648 0.414708 74.275520
+15     14.031075 10.802648 0.318590 74.847694
+16     9.489019 4.532913 0.101938 85.876129
+17     10.933525 7.557714 0.058699 81.450058
+18     40.301075 16.225622 0.102076 43.371227
+19     8.779151 5.219029 0.095504 85.906319
+20     11.732340 5.969895 0.165837 82.131927
+21     10.322801 6.377570 0.107134 83.192497
+22     12.469129 6.439117 0.142897 80.948860
+23     10.261488 6.347642 0.113023 83.277855
+24     11.019726 5.657779 0.130671 83.191833
+25     10.702405 6.359241 0.108765 82.829590
+26     11.186408 6.074530 0.120741 82.618317
+27     10.582453 6.651904 0.090579 82.675064
+28     10.304669 5.041391 0.118784 84.535156
+29     10.464057 6.195536 0.083170 83.257233
+30     14.386067 7.384577 0.105836 78.123520
+31     11.186273 6.547660 0.083646 82.182419
+SECTION_LOADAVG
+10.65 10.54 10.73 10/6587 153465
+
+SECTION_PID_STATUS
+name: dgcom_exec
+state: 1
+vmsize: 9033216
+vmrss: 1148436
+vmdata: 6417696
+vmstk: 136
+vmexe: 1184280
+vmlib: 497128
+threads: 24
+
+SECTION_PROCESS_CPU_UTIL
+pid: 148082
+cpu_total_time: 8361902642
+cpu_used_time: 60492
+cpu_p: 
+
+SECTION_SYSTEM_CPU_UTIL
+sys_cpu_p: 
+
+SECTION_MEMINFO
+memtotal: 263551868
+memfree: 165185572
+cached: 8465592
+swapcached: 0
+active: 42286800
+swaptotal: 32767996
+swapfree: 32767996
+
+SECTION_SMAPS
+shared_kb: 387536
+private_kb: 761196
+
+SECTION_DF
+Filesystem  Size  Used Avail Use%
+filesystem        49G  20G  29G    41
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          26214400  336807 25877593   4294959713
+
+SECTION_CWD
+Filesystem  Size  Used Avail Use%
+filesystem        3641G  3549G  92G    97
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          215782664  21493990 194288674   4294967292
+
+SECTION_DF
+Filesystem  Size  Used Avail Use%
+filesystem        49G  20G  29G    41
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          26214400  336807 25877593   4294959713
+
+SECTION_SWAP_RATE
+blk_read: 4424
+blk_wrtn: 0
+swap_in_rate: 
+swap_out_rate: 
+swap_in_rate: 
+swap_out_rate: 
+
+SECTION_FD_SIZE
+files: 108
+total_size: 75891340
+
+SECTION_NET_INTERFACE
+total_eth_avbl: 4
+
+name net_rx_err net_rx_drp net_tx_err net_tx_drp 
+    lo:         0        0        0        0
+virbr0-nic:               0        0        0        0
+virbr0:               0        0        0        0
+   em2:               0        0        0        0
+
+SECTION_NFSSTAT
+Error: Could not collect the data.
+
+SECTION_THREAD_CPU_UTIL
+148082 : 148082 (dgcom_exec) R 148070 148070 147924 34839 148070 4202496 1256621 655151 431 6 2596 677 2059 254 20 0 24 0 261679797 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140731159795280 140697843722077 0 2147221247 18878464 1218113279 0 0 0 17 11 0 0 1816 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148177 : 148177 (jemalloc_bg_thd) S 148070 148070 147924 34839 148070 1077944384 4 655151 0 6 0 0 2059 254 20 0 24 0 261680268 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140695796743056 140697843710517 0 2147221247 18878464 1218113279 18446744072179783766 0 0 -1 14 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148287 : 148287 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 19 655151 0 6 0 0 2059 254 20 0 24 0 261681511 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140695672626272 140696018914115 0 2147221247 18878464 1218113279 18446744072181196277 0 0 -1 29 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148304 : 148304 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 931 655151 0 6 7 0 2059 254 20 0 24 0 261681728 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140695638547624 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 19 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148305 : 148305 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 1081 655151 0 6 5 1 2059 254 20 0 24 0 261681728 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140695646940328 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 5 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148306 : 148306 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 925 655151 0 6 8 0 2059 254 20 0 24 0 261681728 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140695621762216 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 12 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148307 : 148307 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 808 655151 0 6 9 0 2059 254 20 0 24 0 261681728 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140695630154920 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 31 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148308 : 148308 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 112 655151 0 6 539 790 2059 254 20 0 24 0 261681728 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140695613369088 140696018717181 0 8192 18878464 1218113279 18446744072179484187 0 0 -1 21 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148376 : 148376 (QXcbEventQueue) S 148070 148070 147924 34839 148070 1077944384 167 655151 0 6 0 3 2059 254 20 0 24 0 261682961 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140691945261936 140696018906589 0 8192 18878464 1218113279 18446744072181196277 0 0 -1 23 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148387 : 148387 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 35 655151 0 6 56 201 2059 254 20 0 24 0 261683462 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140691953654544 140696018914115 0 8192 18878464 1218113279 18446744072181196277 0 0 -1 9 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148406 : 148406 (QFileInfoGather) S 148070 148070 147924 34839 148070 1077944384 31 655151 0 6 0 0 2059 254 20 0 24 0 261684045 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140692096265184 140697843710517 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 13 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148452 : 148452 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 1257 655151 0 6 8 0 2059 254 20 0 24 0 261685337 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140692238875816 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 15 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148453 : 148453 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 901 655151 0 6 7 0 2059 254 20 0 24 0 261685337 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140694403210408 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 16 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148454 : 148454 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 780 655151 0 6 7 1 2059 254 20 0 24 0 261685337 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140694545820840 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 9 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148455 : 148455 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 985 655151 0 6 7 0 2059 254 20 0 24 0 261685337 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140694260599976 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 25 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148456 : 148456 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 677 655151 0 6 6 0 2059 254 20 0 24 0 261685337 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140694117989544 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 12 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148457 : 148457 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 721 655151 0 6 9 0 2059 254 20 0 24 0 261685337 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140693975379112 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 5 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148458 : 148458 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 755 655151 0 6 8 0 2059 254 20 0 24 0 261685337 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140693832768680 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 15 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148459 : 148459 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 782 655151 0 6 7 0 2059 254 20 0 24 0 261685337 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140693539155112 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 5 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148460 : 148460 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 905 655151 0 6 6 1 2059 254 20 0 24 0 261685337 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140693547547816 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 12 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148461 : 148461 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 686 655151 0 6 7 1 2059 254 20 0 24 0 261685337 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140693690158248 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 15 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148462 : 148462 (dgcom_exec) S 148070 148070 147924 34839 148070 1077944384 899 655151 0 6 9 1 2059 254 20 0 24 0 261685337 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140693262326952 140696018927145 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 12 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148463 : 148463 (Thread (pooled)) S 148070 148070 147924 34839 148070 1077944384 9 655151 0 6 0 0 2059 254 20 0 24 0 261685388 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140693119716304 140697843710517 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 5 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+148464 : 148464 (Thread (pooled)) S 148070 148070 147924 34839 148070 1077944384 905 655151 0 6 8 1 2059 254 20 0 24 0 261685401 9250013184 287109 18446744073709551615 2097152 1214799152 140731159820928 140692977105872 140697843710517 0 8192 18878464 1218113279 18446744072179783766 0 0 -1 25 0 0 0 0 0 1216495616 1267134008 1970851840 140731159822505 140731159822713 140731159822713 140731159830415 0
+
+CRTE_PERIODIC_END 1 1709044523303

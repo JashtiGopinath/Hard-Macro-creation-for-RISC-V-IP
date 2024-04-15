@@ -1,0 +1,3 @@
+Task   runtime(seconds)
+report_generation	0
+Overall ADR Runtime	1

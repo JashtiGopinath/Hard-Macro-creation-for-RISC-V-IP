@@ -1,0 +1,10 @@
+#@ # 
+#@ # Running lm_shell Version U-2022.12-SP6 for linux64 -- Aug 25, 2023
+#@ # Date:   Sun Mar 10 20:29:27 2024
+#@ # Run by: JashtiG@mavenserver-RH1
+#@ 
+
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+create_workspace -flow edit counter.ndm
+set_attribute [get_lib_cells machine_counter] design_type macro
+exit

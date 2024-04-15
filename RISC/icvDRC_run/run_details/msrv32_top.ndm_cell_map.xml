@@ -1,0 +1,734 @@
+<?xml version="1.0"?>
+<!-- Created by IC Validator 2022.12-SP5 on Sat Apr  6 17:24:00 2024
+ -->
+<icvCellMap version="1.1">
+  <library name="saed32_rvt|saed32_rvt_std" path="/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/CLIBs/saed32_rvt.ndm/L0"/>
+  <library name="saed32_lvt" path="/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/CLIBs/saed32_lvt.ndm"/>
+  <library name="saed32_hvt" path="/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/CLIBs/saed32_hvt.ndm"/>
+  <library name="saed32_hvt|saed32_hvt_std" path="/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/CLIBs/saed32_hvt.ndm/L0"/>
+  <library name="counter" path="/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/counter.ndm"/>
+  <library name="saed32_rvt" path="/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/CLIBs/saed32_rvt.ndm"/>
+  <library name="alu1" path="/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/alu1.ndm"/>
+  <library name="saed32_lvt|saed32_lvt_std" path="/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/ref/CLIBs/saed32_lvt.ndm/L0"/>
+  <library name="risc_1.nlib" path="/home/WBPD04/JashtiG/VLSI_PD/Fusion_compiler_labs/FC_LABS_handsOn/Macro_projects/RISC/risc_1.nlib"/>
+  <cell id="45" unique_name="AND4X2_HVT" orig_name="AND4X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="29" unique_name="OAI22X1_HVT" orig_name="OAI22X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="74" unique_name="AND4X1_RVT" orig_name="AND4X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="165" unique_name="AND4X2_RVT" orig_name="AND4X2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="5" unique_name="AO22X1_HVT" orig_name="AO22X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="60" unique_name="AO22X1_LVT" orig_name="AO22X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="82" unique_name="AO22X2_HVT" orig_name="AO22X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="133" unique_name="AO22X1_RVT" orig_name="AO22X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="30" unique_name="AOI22X1_HVT" orig_name="AOI22X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="19" unique_name="msrv32_alu" orig_name="msrv32_alu" type="lvs_black_box" parent_library="risc_1.nlib" default_view="frame" default_phys_view="frame" design_type="macro">
+    <view name="frame" library="alu1" type="main"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="41" unique_name="AO22X2_LVT" orig_name="AO22X2_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="99" unique_name="OR4X1_HVT" orig_name="OR4X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="114" unique_name="AOI22X1_LVT" orig_name="AOI22X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="49" unique_name="NOR3X0_HVT" orig_name="NOR3X0_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="52" unique_name="AO22X2_RVT" orig_name="AO22X2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="24" unique_name="MUX21X1_HVT" orig_name="MUX21X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="97" unique_name="AOI22X2_HVT" orig_name="AOI22X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="169" unique_name="NAND4X0_HVT" orig_name="NAND4X0_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="148" unique_name="AOI22X1_RVT" orig_name="AOI22X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="80" unique_name="AOI22X2_LVT" orig_name="AOI22X2_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="66" unique_name="NOR3X1_HVT" orig_name="NOR3X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="168" unique_name="MUX21X2_HVT" orig_name="MUX21X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="151" unique_name="NOR3X0_RVT" orig_name="NOR3X0_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="171" unique_name="FADDX1_HVT" orig_name="FADDX1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="73" unique_name="NAND4X1_HVT" orig_name="NAND4X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="8" unique_name="OA221X1_HVT" orig_name="OA221X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="0" unique_name="msrv32_top" orig_name="msrv32_top" type="design" parent_library="risc_1.nlib" design_type="module">
+    <view name="design" library="risc_1.nlib" type="main"/>
+    <use_stream_mode/>
+  </cell>
+  <cell id="93" unique_name="NAND4X0_RVT" orig_name="NAND4X0_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="163" unique_name="NOR3X1_RVT" orig_name="NOR3X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="172" unique_name="FADDX2_HVT" orig_name="FADDX2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="123" unique_name="NBUFFX2_HVT" orig_name="NBUFFX2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="84" unique_name="OA221X2_HVT" orig_name="OA221X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="173" unique_name="NAND4X1_RVT" orig_name="NAND4X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="3" unique_name="AND2X1_HVT" orig_name="AND2X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="103" unique_name="OA221X1_RVT" orig_name="OA221X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="55" unique_name="AND2X1_LVT" orig_name="AND2X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="178" unique_name="NOR3X2_RVT" orig_name="NOR3X2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="7" unique_name="machine_counter" orig_name="machine_counter" type="lvs_black_box" parent_library="risc_1.nlib" default_view="frame" default_phys_view="frame" design_type="macro">
+    <view name="frame" library="counter" type="main"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="127" unique_name="NBUFFX16_HVT" orig_name="NBUFFX16_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="37" unique_name="NBUFFX2_RVT" orig_name="NBUFFX2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="67" unique_name="AND2X2_HVT" orig_name="AND2X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="14" unique_name="AND2X1_RVT" orig_name="AND2X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="122" unique_name="AND2X2_LVT" orig_name="AND2X2_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="10" unique_name="AO221X1_HVT" orig_name="AO221X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="126" unique_name="NBUFFX4_HVT" orig_name="NBUFFX4_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="11" unique_name="NBUFFX16_RVT" orig_name="NBUFFX16_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="110" unique_name="AO221X1_LVT" orig_name="AO221X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="156" unique_name="AND2X2_RVT" orig_name="AND2X2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="13" unique_name="OA21X1_HVT" orig_name="OA21X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="35" unique_name="NBUFFX4_LVT" orig_name="NBUFFX4_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="107" unique_name="OA21X1_LVT" orig_name="OA21X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="75" unique_name="AO221X2_HVT" orig_name="AO221X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="135" unique_name="AO221X1_RVT" orig_name="AO221X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="33" unique_name="NBUFFX32_HVT" orig_name="NBUFFX32_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="131" unique_name="NBUFFX4_RVT" orig_name="NBUFFX4_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="72" unique_name="AND2X4_HVT" orig_name="AND2X4_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="48" unique_name="AO221X2_LVT" orig_name="AO221X2_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="40" unique_name="XNOR2X1_HVT" orig_name="XNOR2X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="78" unique_name="OA21X2_HVT" orig_name="OA21X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="145" unique_name="OA21X1_RVT" orig_name="OA21X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="46" unique_name="AND2X4_LVT" orig_name="AND2X4_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="77" unique_name="AO221X2_RVT" orig_name="AO221X2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="125" unique_name="AND2X4_RVT" orig_name="AND2X4_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="111" unique_name="XNOR2X2_HVT" orig_name="XNOR2X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="9" unique_name="OR2X1_HVT" orig_name="OR2X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="138" unique_name="XNOR2X1_RVT" orig_name="XNOR2X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="118" unique_name="OR2X1_LVT" orig_name="OR2X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="129" unique_name="NAND2X0_HVT" orig_name="NAND2X0_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="106" unique_name="OR2X2_HVT" orig_name="OR2X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="158" unique_name="OR2X1_RVT" orig_name="OR2X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="136" unique_name="XNOR2X2_RVT" orig_name="XNOR2X2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="139" unique_name="NAND2X0_LVT" orig_name="NAND2X0_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="23" unique_name="AOI221X1_HVT" orig_name="AOI221X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="124" unique_name="NBUFFX8_HVT" orig_name="NBUFFX8_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="170" unique_name="NAND2X1_HVT" orig_name="NAND2X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="71" unique_name="NAND2X0_RVT" orig_name="NAND2X0_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="162" unique_name="OR2X2_RVT" orig_name="OR2X2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="20" unique_name="NBUFFX8_LVT" orig_name="NBUFFX8_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="164" unique_name="OAI222X1_HVT" orig_name="OAI222X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="86" unique_name="NAND2X2_HVT" orig_name="NAND2X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="22" unique_name="NBUFFX8_RVT" orig_name="NBUFFX8_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="100" unique_name="NAND2X2_LVT" orig_name="NAND2X2_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="155" unique_name="INVX16_HVT" orig_name="INVX16_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="68" unique_name="SDFFASRSX1_HVT" orig_name="SDFFASRSX1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="91" unique_name="NOR4X1_HVT" orig_name="NOR4X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="117" unique_name="OR2X4_LVT" orig_name="OR2X4_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="109" unique_name="NOR4X1_LVT" orig_name="NOR4X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="31" unique_name="OA222X1_HVT" orig_name="OA222X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="160" unique_name="NAND2X2_RVT" orig_name="NAND2X2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="64" unique_name="OA222X1_LVT" orig_name="OA222X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="69" unique_name="SDFFASRSX2_HVT" orig_name="SDFFASRSX2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="4" unique_name="INVX0_HVT" orig_name="INVX0_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="176" unique_name="IBUFFX2_HVT" orig_name="IBUFFX2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="102" unique_name="SDFFASRSX1_RVT" orig_name="SDFFASRSX1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="63" unique_name="INVX0_LVT" orig_name="INVX0_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="105" unique_name="OA222X2_HVT" orig_name="OA222X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="76" unique_name="NAND2X4_HVT" orig_name="NAND2X4_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="18" unique_name="AND3X1_HVT" orig_name="AND3X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="134" unique_name="OA222X1_RVT" orig_name="OA222X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="70" unique_name="INVX1_HVT" orig_name="INVX1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="104" unique_name="AND3X1_LVT" orig_name="AND3X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="79" unique_name="INVX0_RVT" orig_name="INVX0_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="26" unique_name="SDFFASRSX2_RVT" orig_name="SDFFASRSX2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="115" unique_name="INVX1_LVT" orig_name="INVX1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="51" unique_name="AND3X2_HVT" orig_name="AND3X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="16" unique_name="NAND2X4_RVT" orig_name="NAND2X4_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="32" unique_name="OAI21X1_HVT" orig_name="OAI21X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="96" unique_name="AND3X1_RVT" orig_name="AND3X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="141" unique_name="HADDX1_RVT" orig_name="HADDX1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="83" unique_name="INVX2_HVT" orig_name="INVX2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="116" unique_name="OAI21X1_LVT" orig_name="OAI21X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="65" unique_name="INVX1_RVT" orig_name="INVX1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="12" unique_name="AO222X1_HVT" orig_name="AO222X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="43" unique_name="HADDX2_LVT" orig_name="HADDX2_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="27" unique_name="INVX2_LVT" orig_name="INVX2_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="61" unique_name="AO222X1_LVT" orig_name="AO222X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="101" unique_name="AND3X2_RVT" orig_name="AND3X2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="34" unique_name="OA22X1_HVT" orig_name="OA22X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="161" unique_name="OAI21X1_RVT" orig_name="OAI21X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="146" unique_name="HADDX2_RVT" orig_name="HADDX2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="42" unique_name="SDFFSSRX2_HVT" orig_name="SDFFSSRX2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="17" unique_name="AO21X1_HVT" orig_name="AO21X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="6" unique_name="SDFFSSRX1_RVT" orig_name="SDFFSSRX1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="92" unique_name="INVX2_RVT" orig_name="INVX2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="119" unique_name="OA22X1_LVT" orig_name="OA22X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="53" unique_name="AO222X2_HVT" orig_name="AO222X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="128" unique_name="AO222X1_RVT" orig_name="AO222X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="58" unique_name="SDFFSSRX2_LVT" orig_name="SDFFSSRX2_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="59" unique_name="AO21X1_LVT" orig_name="AO21X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="1" unique_name="CGLPPRX2_HVT" orig_name="CGLPPRX2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="81" unique_name="AND3X4_HVT" orig_name="AND3X4_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="149" unique_name="OA22X1_RVT" orig_name="OA22X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="50" unique_name="INVX4_HVT" orig_name="INVX4_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="85" unique_name="AO21X2_HVT" orig_name="AO21X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="95" unique_name="AND3X4_LVT" orig_name="AND3X4_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="25" unique_name="SDFFSSRX2_RVT" orig_name="SDFFSSRX2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="130" unique_name="AO21X1_RVT" orig_name="AO21X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="132" unique_name="AO222X2_RVT" orig_name="AO222X2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="28" unique_name="AOI21X1_HVT" orig_name="AOI21X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="21" unique_name="OR3X1_HVT" orig_name="OR3X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="56" unique_name="AOI21X1_LVT" orig_name="AOI21X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="47" unique_name="TIEH_HVT" orig_name="TIEH_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="15" unique_name="NOR2X0_HVT" orig_name="NOR2X0_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="159" unique_name="INVX4_RVT" orig_name="INVX4_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="142" unique_name="AO21X2_RVT" orig_name="AO21X2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="113" unique_name="OR3X1_LVT" orig_name="OR3X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="57" unique_name="XNOR3X2_LVT" orig_name="XNOR3X2_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="174" unique_name="AOI21X2_HVT" orig_name="AOI21X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="121" unique_name="NOR2X0_LVT" orig_name="NOR2X0_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="166" unique_name="NAND3X0_HVT" orig_name="NAND3X0_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="137" unique_name="AOI21X1_RVT" orig_name="AOI21X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="108" unique_name="OR3X2_HVT" orig_name="OR3X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="143" unique_name="OR3X1_RVT" orig_name="OR3X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="157" unique_name="NAND3X0_LVT" orig_name="NAND3X0_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="94" unique_name="NOR2X1_HVT" orig_name="NOR2X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="144" unique_name="NOR2X0_RVT" orig_name="NOR2X0_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="36" unique_name="OR3X2_LVT" orig_name="OR3X2_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="38" unique_name="AOI222X1_HVT" orig_name="AOI222X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="150" unique_name="AOI21X2_RVT" orig_name="AOI21X2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="90" unique_name="NAND3X1_HVT" orig_name="NAND3X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="44" unique_name="IBUFFX8_LVT" orig_name="IBUFFX8_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="88" unique_name="NAND3X0_RVT" orig_name="NAND3X0_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="120" unique_name="AOI222X1_LVT" orig_name="AOI222X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="153" unique_name="OR3X2_RVT" orig_name="OR3X2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="98" unique_name="NOR2X2_HVT" orig_name="NOR2X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="147" unique_name="AOI222X1_RVT" orig_name="AOI222X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="89" unique_name="NAND3X2_HVT" orig_name="NAND3X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="175" unique_name="DELLN1X2_HVT" orig_name="DELLN1X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="177" unique_name="NAND3X1_RVT" orig_name="NAND3X1_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="179" unique_name="OR3X4_HVT" orig_name="OR3X4_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="152" unique_name="INVX8_HVT" orig_name="INVX8_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="39" unique_name="OR3X4_LVT" orig_name="OR3X4_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="154" unique_name="NAND3X2_RVT" orig_name="NAND3X2_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="167" unique_name="XOR2X1_HVT" orig_name="XOR2X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="54" unique_name="TIEL_HVT" orig_name="TIEL_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="87" unique_name="NOR2X4_HVT" orig_name="NOR2X4_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="140" unique_name="INVX8_RVT" orig_name="INVX8_RVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_rvt|saed32_rvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="2" unique_name="AND4X1_HVT" orig_name="AND4X1_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="112" unique_name="XOR2X2_HVT" orig_name="XOR2X2_HVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_hvt|saed32_hvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+  <cell id="62" unique_name="AND4X1_LVT" orig_name="AND4X1_LVT" type="design" parent_library="risc_1.nlib" default_view="timing" default_phys_view="frame" design_type="lib_cell">
+    <view name="frame" library="saed32_lvt|saed32_lvt_std" type="alternate"/>
+    <parent_is_top/>
+  </cell>
+</icvCellMap>
